@@ -1,0 +1,484 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "What's up loser?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Ha, I'm just fucking with you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Though you could be a loser."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I can't tell yet."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "And if you are, fucking own it man."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Rock that shit."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Like, I ain't gonna respect it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "But I'd respect it a hell of a lot less if you tried to hide it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You gotta be yourself, right?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Full throttle. Peddle to the goddamn metal."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "No one else is gonna do it. You have to."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Or you're just kind of...nothing."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Me, I'm everything, all the time."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I'm coming at life with a steel chair, you feel me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I'm kicking it's fucking ass."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "And if someone's got a problem with that, they can say something."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You know what I mean."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I'm going to be myself, as hard as possible."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Anyone's got a problem with that, tell me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I dare you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "And it's not like I want to be perfect."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I just want to be me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "That's the important part."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You know?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You gotta stress test yourself against world, right?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Throw everything at the wall, get rid of what breaks."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Hold on to what doesn't."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You up to that challenge?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Oh hell yeah.",
+                    "character": "2",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "That's seems kind of...violent.",
+                    "character": "2",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Hell. Yeah."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "God, so many people get shy when I start talking, you know?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Oh I gotta spare other people's feelings. (todo: italics)"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Gotta be the bigger person. (todo: italics)"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Screw that."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "I ain't gotta do shit."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "And when something stops working for me, I change it."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "I know who I am."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "I know what's fluid and what's not."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "And if you don't like it, that's not my fucking problem?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "You feel me?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Yeah, you do."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Alright, you're not a loser."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Come around again sometime and I'll figure out what you are."
+                }
+            }
+        ], 
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "So what if it is?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Violence isn't a bad thing, you know."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "It's just a thing."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "It exists. People do different stuff with it."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "But it just is."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "You can't fucking define yourself by how other people see you."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "You just gotta be you, like I said."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "But maybe who you are is a coward?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Or just afraid of who you could be, if you let yourself?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Well, at least I know what you are now."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "See you when I see you, loser."
+                }
+            }
+        ]
+    ]
+]

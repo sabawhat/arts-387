@@ -1,0 +1,556 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Oh. My. GOSH!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Hello!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "I'm SO excited to meet you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "I was LITERALLY just sitting here thinking"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Gosh, wouldn't it be GREAT to meet someone new???"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "And here you are! Someone new!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "EEE!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "I'm, like, starved for company, you know?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "LITERALLY starving!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Sitting here, like, feeling myself waste away."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Because I'm sooooo LONELY. And BORED."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Except I'm not anymore! Because you came!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Yay!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Oh my gosh, I cannot WAIT to show you around!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "You are going to LOVE this place."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "It's, like, super amazing."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Because I made it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "And I'm amazing."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "I'm just kidding!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Well, not about being amazing. But I would never say that!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Because it's e-go-tis-ti-cal."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "And that's, like, so not me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Incredibly not me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "I just want to lift people up, you know?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Make them feel like their best self."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Everyone's presence is a GIFT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "We should all be BASKING in each other's presence's."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "It's, like, super cool that we just to exist."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "We get to be in other people's lives."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Isn't that, like, so wild?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "It's kind of, like, all I really need."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "Just to be around someone."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "That makes me happy."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Pixie",
+            "dialogue": "What about YOU???"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "I really like just being with someone too.",
+                    "character": "1",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "I'm looking for something a little...deeper.",
+                    "character": "1",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "AAAAAAHHHH!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "WOWOWOWOWOW!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "I LOVE that we have that in common."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "I feel like everyone's, like, so focused on big things."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "But we NEED to pay attention to the little ones too!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "Holding hands! Laying side by side!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "Pointing out cats because you know someone loves cats!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "That's, like, crazy important."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "And we agree!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "SO COOL!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "We should definitely hang out again!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "We can just BE together!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "YAY!!!"
+                }
+            }
+        ], 
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "Oh."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "I mean, that's also really cool."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "I guess."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "We can just BE together!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "Deep and profound commitment is, like, SUPER in."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "We can just BE together!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "Right now."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "And, like, props to you for knowing what you want."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "That's, uh, good."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "For you."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "To know."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "About yourself."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "I LOVE knowing things about myself!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "It's, like, my favorite past time."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "And it was nice meeting you and learning things about YOU!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Pixie",
+                    "dialogue": "Maybe I'll see you again later."
+                }
+            }
+        ]
+    ]
+]

@@ -1,0 +1,643 @@
+
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "W-what?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Oh, um, hello."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "I don't really get many visitors around here."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "It's normally pretty...quiet, I guess."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "But it's nice, having someone here."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "You know?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Yes",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "No",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "Andy",
+                        "dialogue": "Yeah, it gets pretty rough when you're on your own."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "Andy",
+                        "dialogue": "The space feels...bigger, in a way."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "Andy",
+                        "dialogue": "Or maybe you feel smaller."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "{player}",
+                        "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Or, um, something like that."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I don't know."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I'm not very good with words."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Mar- um, a friend of mine told me I should try to get better."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "He said more people would talk to me then."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "And he's not really around anymore. You know?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "So I guess it did make me lonelier."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Funny, right? "
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                        "name": "{player}",
+                        "dialogue": "..."
+                }                    
+            }               
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Oh, okay. Maybe it's just me then."
+                }
+            },   
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "It could totally just be me."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "It would make so much sense if it was."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I had this b- FRIEND."
+                }
+            },  
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I had a friend who would get on me for being too weird."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "He said nobody could understand me. 'Cause I was too out there."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Or something."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "And then, he, um, left."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "So I guess he wasn't wrong."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Ha ha."
+                }
+            }           
+        ]            
+    ],
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "Okay, maybe it's not that funny."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "But, you got to laugh at it, you know?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "If it's funny, it means you're moving on."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "And that's the important part, really."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "At least that's what I think."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Andy",
+            "dialogue": "What about you?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Yeah, moving on is what I'm trying to do.",
+                    "character": "0",
+                    "points": 10,
+                    "response_idx": 0
+                },
+                {
+                    "text": "Hell no, I'd never let someone get to me that much!",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Oh wow."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "It's, um, cool. That we have that in common."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": " Having things in common is...good."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Really good."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "For us."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Really, really good."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "To be similar like that."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Super cool."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Yeah."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I, um, have a thing!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "To do!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Right now!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "But, um, maybe you could stop by later?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "You don't have too, obviously."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "But you could. Make the place less lonely."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            }
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Oh, right."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Yeah, I guess it was pretty silly of me."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "To care so much about what he said."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Gotta have a thick skin, I guess."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Um."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Yeah."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I, um, I'll see you around I guess."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Or something."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Yeah."
+                }
+            }
+        ]
+    ]    
+]

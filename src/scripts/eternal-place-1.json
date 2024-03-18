@@ -1,0 +1,403 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "OH."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "HELLO LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "I WAS NOT EXPECTING TO SEE ONE SUCH AS YOURSELF."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "IT HAS BEEN A LONG TIME SINCE ANY OF YOUR KIND"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "CAME TO VISIT ME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "MANY YEARS. MORE THAN YOU CAN IMAGINE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "MORTAL MINDS CANNOT FATHOM ETERNITY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "HOW IT STRETCHES. HOW IT MARCHES EVER ONWARD."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "YOU ARE TOO SMALL FOR IT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "YOU COULD NOT BEAR THE WEIGHT, I DON'T THINK."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "BUT THAT IS OKAY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "I BEAR IT BECAUSE I CAN."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "BUT IT CAN GET LONELY, LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "SO VERY LONELY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "I AM NOT SO DIFFERENT FROM YOU, IN THAT WAY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "EVEN I AM NOT MEANT TO BE ALONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "NOT FOREVER."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "I HAVE A GIFT, YOU SEE. I CAN GIVE SOMEONE ETERNITY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "BUT ONLY ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "IT IS A HEAVY BURDEN, CAN YOU IMAGINE?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "TO KNOW YOU CAN SPEND ALL OF TIME WITH SOMEONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "AND THAT YOU HAVE TO DECIDE WHO IS WORTH IT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "STILL, THERE IS SOMETHING...PLEASING ABOUT THE THOUGHT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "TO FIND ONE GREAT LOVE, THAT WILL OUTLAST ALL THE STARS."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Delta-Doom",
+            "dialogue": "IT'S A BEAUTIFUL IDEA, DON'T YOU AGREE?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Yeah, that sounds really lovely.",
+                    "character": "3",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "That feels like a lot to put on one person.",
+                    "character": "3",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "I AM GLAD TO HEAR IT, LITTLE ONE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "IT IS LOVELY. IT BRINGS ME HOPE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "SOMEWHERE, SOMEWHEN, THERE IS THE PERSON FOR ME."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "THE PERSON WHO WILL BE AT MY SIDE FOR ALL THE AGES OF THIS UNIVERSE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "THAT IS A LIGHT IN THE DEPTHS OF MY LONESOMENESS"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "KNOWING THAT IT WILL NOT LAST FOREVER."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "YOU HAVE BEEN MOST KIND TO LISTEN TO ME, LITTLE ONE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "PERHAPS YOU WILL COME TO LISTEN AGAIN, SOMETIME."
+                }
+            }
+        ], 
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "PERHAPS YOU ARE CORRECT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "FOREVER IS, ITSELF, A HEAVY BURDEN."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "AND NOT ONE MANY ARE SUITED FOR."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "IT IS A CURSE AS MUCH AS A BLESSING, I THINK."
+                }
+            },            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "SOMETIMES."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "BUT EITHER WAY, IT IS MINE TO BEAR."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "I ONLY HOPE I DO NOT HAVE TO BEAR IT ALONE FOR MUCH LONGER."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "YOU HAVE GIVEN ME SOMETHING TO THINK ABOUT, LITTLE ONE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "FOR THAT, YOU HAVE MY THANKS."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Delta-Doom",
+                    "dialogue": "AND MY GOODWILL, ON YOUR JOURNEY FORWARD."
+                }
+            }
+        ]
+    ]
+]
