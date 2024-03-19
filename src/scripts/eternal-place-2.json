@@ -1,0 +1,640 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "GREETINGS LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IT IS PLEASING TO SEE YOU IN MY REALM."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "MOST PLEASING INDEED."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "THE VASTNESS HAS LONG BEEN MY COMPANION,"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "BUT EVEN IT CAN BECOME...STIFLING AT TIMES."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "TOO SMALL FOR ME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "HA."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "HA."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "HA."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "I JEST, AS IS THE CUSTOM OF YOUR PEOPLE, CORRECT?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "WONDERFUL! I HOPE MY USE OF YOUR CUSTOMS HAS MADE YOU FEEL WELCOME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "I WISH THIS TO BE A WELCOMING SPACE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "A SPACE WHERE YOU CAN FEEL COMFORTABLE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "...Thanks."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "OF COURSE, LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "YOU ARE VERY INTERESTING TO ME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "AND NOT JUST BECAUSE OF YOUR SMALLNESS."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "OR THE FLEETING NATURE OF YOUR LIFE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "I AM FASCINATED WITH YOU BECAUSE DESPITE YOUR SIZE"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "YOU HAVE THE CAPACITY TO IMAGINE ENORMOUSLY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "BEYOND ANY SCALE YOU COULD ACTUALLY ACHIEVE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "I FIND IT INVIGORATING, YOU SEE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "INSPIRING, EVEN."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "BECAUSE IF YOU CAN CONCEIVE OF ME, IMAGINE WHAT I CAN CONCEIVE OF."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IT'S A WONDERFULLY GENERATIVE THOUGHT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "ONE I COULD CONSIDER FOR A LONG TIME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "I ENJOY DWELLING ON THINGS, LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "HOLDING THEM IN MY MIND FOR EONS AND ETERNITIES."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "LOOKING AT EACH FACT AND DETAIL."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IT IS A GREAT GIFT OF MY ETERNITY"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "THAT I CAN ALWAYS PONDER LONGER,"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "CAN ALWAYS LINGER IN MY IMAGININGS."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IF YOU WERE LIKE ME, WOULD YOU?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Yes! I'd love more time to think things through.",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "Not really. Moving past things is more important to me.",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "HOW WONDERFUL!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "IT IS PLEASING TO ME THAT WE SHARE THIS TRAIT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "THAT IS ALSO IMPORTANT TO YOUR PEOPLE, IS IT NOT?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "SHARED ATTRIBUTES. COMMUNAL QUALITIES."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "THAT IS HOW YOU RELATE UNTO EACH OTHER, YES? "
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "Uh, yeah?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "INCREDIBLE!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "THERE ARE NOT MANY LIKE ME, YOU SEE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "SO I DO NOT HAVE MANY TO COMPARE MYSELF TO."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "BUT IT IS...NICE. HAVING SOMEONE WHO SHARES MY PERSPECTIVE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "I ENJOY THIS FEELING. IT IS QUITE WARM, AS YOU MIGHT SAY."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "I WOULD LIKE TO CONTINUE EXPERIENCING IT, IN THE FUTURE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "THAT WOULD BE MOST SATISFACTORY FOR ME."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "AND, I HOPE, FOR YOU AS WELL LITTLE ONE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "IT IS GOOD TO BE SATISFIED, DON'T YOU THINK?"
+                }
+            }
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "HMM."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "MOVING PAST THINGS, YOU SAY."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "I AM AFRAID THIS IS NOT A CONCEPT I KNOW WELL."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "MY KIND ARE CREATURES OF HISTORY."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "OUR LONGEVITY DEMANDS IT, ALMOST."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "IT IS NOT OUR WAY TO LET GO, TO LET FADE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "BUT I SUPPOSE THERE COULD BE SOME MERIT IN THE IDEA."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "NOT EVERYTHING THAT LINGERS IS PLEASANT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "SOME OF IT IS QUITE...ALARMING, EVEN AFTER TIME HAS SMOOTHED THE EDGES."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "PERHAPS IT WOULD BE EASIER TO LET GO, AS YOUR KIND DOES."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "THEN AGAIN, PERHAPS THE UNPLEASANTNESS IS THE POINT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "NOT ALL THAT IS TRUE IS NICE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "I THINK THE POINT, AS IT WERE"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "IS TO FIND SOMEONE TO WEATHER EVERY TRUTH WITH."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "TO ENDURE WITH, YOU UNDERSTAND."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "BECAUSE EITHER WAY I MUST ENDURE THROUGH ALL TIME."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "I CAN ONLY HOPE I MUST NOT DO IT ALONE."
+                }
+            }
+        ]
+    ]
+]

@@ -47,7 +47,7 @@ function NameInputBox() {
       let meter = [0, 0, 0, 0] // 0 = andy, 1 = pixie, 2 = gouda, 3 = WD
       sessionStorage.setItem('player_name', playerName)
       sessionStorage.setItem('meter', JSON.stringify(meter))
-      sessionStorage.setItem('round', (0).toString());
+      sessionStorage.setItem('round', (1).toString());
     }
 
     // when click ok, hide the whole form

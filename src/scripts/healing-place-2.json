@@ -1,0 +1,851 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "*SLEEPING*"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "*SLEEPING*"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "*SLEEPING*"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Wh..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "OH!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Hi, sorry, you surprised me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Which is, um, totally fine."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Hi, sorry, you surprised me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Just surprising."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Um. Yeah."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Do you have dreams often?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Yes.",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "No.",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "Andy",
+                        "dialogue": "Oh, wow. That's, um, really cool."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "Andy",
+                        "dialogue": "I kind of don't."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "Andy",
+                        "dialogue": "Pretty much at all."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": 
+                    {
+                        "name": "{player}",
+                        "dialogue": "But I do remember the ones I have really well."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "So it, I don't know, balances out? I guess?."
+                }
+            }             
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Me neither."
+                }
+            },   
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Ha ha."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "They're kind of freaky, right?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "You're asleep and then bam, images in your head."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I guess if I had them more often they might not be so weird."
+                }
+            },  
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "But I remember the ones I do have better."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "So I guess it balances."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Or something."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "..."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "...What were you dreaming about?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Oh. Right."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "That's where this conversation would go."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Obviously, ha ha."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },   
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I was dreaming about my- someone I used to know."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "And I don't know."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "It wasn't a bad dream or anything."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Just kind of a normal day."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "But it...hurt? In a weird way?."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Because I just have the memories, you know?."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "I don't have anything like that now."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Just my memories of him."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "It's like there's something missing now."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "Inside me, I mean."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "A void with nothing filling it."
+                }
+            },    
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "And that's um, painful, I guess."
+                }
+            },   
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "For me, at least."
+                }
+            },  
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Andy",
+                    "dialogue": "How about you?"
+                }
+            },
+            {
+                "type": "option",
+                "branch": true,
+                "content": {
+                    "options": [
+                        {
+                            "text": "Totally. Having something new helps make the old hurt less.",
+                            "character": "0",
+                            "points": 10,
+                            "response_idx": 0
+                        },
+                        {
+                            "text": "Not really, I treasure the memories of time spent with people.",
+                            "character": "0",
+                            "points": 0,
+                            "response_idx": 1
+                        }
+                    ]
+                } 
+            },
+            [
+                [
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Right?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "It's kind of weird, I guess, but super true."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Sort of like putting balm on a scar."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "You know?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "It, um, doesn't fix what happened?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "But it, kind of shrinks it?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "In your memory?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "It's like you put up a new picture on the wall"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "And suddenly you're paying less attention to the old stuff."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "..."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "{player}",
+                            "dialogue": "..."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I, um, don't know if that made any sense."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I can be pretty bad with words sometimes."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Ha ha."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "But I hope you got it."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "That would be, um, pretty cool."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Or something."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Ha ha."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "{player}",
+                            "dialogue": "..."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "{player}",
+                            "dialogue": "I think I get it."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Oh. Cool."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Super cool."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I, um, like talking to you."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "..."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Hope you feel the same."
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Oh."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Huh."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I...don't know if I've ever thought about it like that."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Like the memories are, um, objects."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Things you can choose to hold on to."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "That's kind of, interesting, I guess?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Ha ha."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "{player}",
+                            "dialogue": "..."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "But, I don't know."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "That doesn't really change the fact it hurts."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Not really."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I, um, I guess I don't know how to want to hold onto them."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "If that makes sense?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I'm um, pretty bad with words."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "But, I guess, there's a point where remembering just isn't worth it."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "Maybe?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I don't know."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "Andy",
+                            "dialogue": "I'll have to think about that."
+                        }
+                    }
+                ]
+            ]
+        ]            
+    ] 
+]

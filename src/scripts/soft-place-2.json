@@ -1,0 +1,721 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "GAAHHH!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "It's SOOOO good to see you!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Like, don't get me wrong."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I LOVE this place."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "It's, like, my favorite place. Of ALL TIME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "'Cause I spend all my time here. And it's perfect."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Obviously."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "But sometimes it, like, feels kind of empty???"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Because I LOVE people, too."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I'm a person-person."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Cat-person."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "People-cat-person!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "And that's, like, the one thing this place can't do."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Make people. Summon them."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "ANYWAYS, it just means that I have to WAIT and HOPE that someone comes."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "And you did! Which is super cool!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "YAY!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "You're kind of, um, excitable."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Duh! That's part of my CHARM!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "My CHARISMA!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "My JE-NE-SAIS-QUOI!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "It's, like, an immutable fact of my incredible being!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "The LIGHT that I bring into the world!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "This WORLD! This PLACE!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "But, totally, THANK YOU for noticing!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "It's, like, super sweet that you're paying attention to me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I LOVE attention! I crave it!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I YEARN for it like the children for the mines."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I. Need. It!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "But I'm also, like, super into paying attention to other people."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Like, I want to SEE you babe."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I want to know ALL the things."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "To, like, osmosis all of you into my person."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You know?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Because that's, like, the super cool thing that happens"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "When you spend a lot of time with someone."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You get to, like, learn EVERYTHING about them."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "And then freaking REVEL in it!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Isn't that awesome?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "For sure! I want to celebrate and be celebrated!",
+                    "character": "2",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "Eh. I'd rather push and pull, you know?",
+                    "character": "2",
+                    "points": 0,
+                    "response_idx": 1
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "TOTALLY!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "I LOVE that we're, like, on the same page with that."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "'Cause it's so important to, like, appreciate the people around us???"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Because they're BEAUTIFUL!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And AMAZING!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And right freaking HERE!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "GAAHHH!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "I just, like, never want anyone in my life to feel like I don't see them, you know?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "I'm like, I SEE YOU!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "I LOVE YOU!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "GET IT BESTIE!!!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "That's the energy I'm trying to bring to the space."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "My space. All space."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "All the time."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And it's, like, really awesome that you're about that too."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "It's, like, super SWEET."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "We should TOTALLY talk more about this!"
+                }
+            }
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Oh. Huh."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "That's, like, pretty cool too."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "I think."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "'Cause, like, growing as a person is also super important."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Like, we're all AMAZING!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "But we could also be MORE amazing!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "With, like, time, and effort, and stuff."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And then we'll, like, bring even BETTER energy to the space!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And be like, Yes BESTIE, look at you GO!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "GROW!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And, like, support each other through the process."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Or something like that."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Which is cool, in it's own way."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And, like, differing perspectives are cool too."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "And, you know, really important."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "So yeah. Super great that you're true to yourself."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "That's, like, amazing!"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Maybe if we see each other again you can, uh, tell me more about it."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "Pixie",
+                    "dialogue": "Or something. "
+                }
+            }
+        ]
+    ]
+]

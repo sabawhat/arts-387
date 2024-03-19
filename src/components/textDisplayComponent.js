@@ -42,6 +42,7 @@ function TextDisplay() {
                 // if we are on a branch and we have reached the end, we want to set the current dialogue idx to the main one and select the old script
                 if (mainDialogueIdx < selectedScript.length - 1) {
                     if ((currentScript[currentDialogueIdx]['branch'])) {
+                        console.log('enterin ghere')
                         setCurrentDialogueIdx(mainDialogueIdx + 1);
                         setCurrentScript(selectedScript);
                     }                    
@@ -53,6 +54,7 @@ function TextDisplay() {
 
         const handleKeyPress = (event) => {
             if ((event.key === 'Enter') && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
+                console.log("pressed enter?", currentScript, currentDialogueIdx)
                 // if the text is still displaying, display the rest of the text 
                 if ((displayDialogue.length < charDialogue.length) && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
                     setDisplayDialogue(charDialogue);
@@ -69,7 +71,7 @@ function TextDisplay() {
         return () => {
             document.removeEventListener('keypress', handleKeyPress);
         }
-    }, [mainDialogueIdx, currentScript.length, charDialogue, displayDialogue, intervalID])
+    }, [mainDialogueIdx, branchDialogueIdx, currentDialogueIdx, currentScript.length, charDialogue, displayDialogue, intervalID])
 
     // display text slowly
     useEffect(() => {
@@ -103,17 +105,19 @@ function TextDisplay() {
         }
 
         // set the script to the next index, and select inner array
-        setMainDialogueIdx(prevMainIdx => prevMainIdx + 1);  // Using the functional form
+        setMainDialogueIdx(prevMainIdx => prevMainIdx + 1);
         setBranchDialogueIdx(0);
-        setCurrentDialogueIdx(0);
         
         // Now use the updated mainDialogueIdx to get the new script
         setCurrentScript(prevScript => {
-            const newScript = prevScript[mainDialogueIdx + 1][nextIdx];
+            const newScript = prevScript[currentDialogueIdx + 1][nextIdx];
             return Array.isArray(newScript) ? newScript : [newScript];
         });
+        setCurrentDialogueIdx(0);
+        console.log('hiiii')
     }
     
+    console.log(currentScript, currentDialogueIdx);
     if (currentScript[currentDialogueIdx]['type'] === 'dialogue') {
         // display the dialogue component
         const diag =   
@@ -132,22 +136,23 @@ function TextDisplay() {
      
         return diag;
     } else {
-        // display the option component
-        const option = 
-        <div>
-            {/* <FlashScreen></FlashScreen> */}
-            <div className="choice-display">
-                {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
-                    return (
-                        <div className='individual-option' key={`option_${idx}`} onClick={() => clickOption(option.response_idx, option.character, option.points)}>
-                            <p>{option.text}</p>
-                        </div>
-                        );
-                    })}
-            </div>             
-        </div>
-       
-        return option;
+        if (currentScript[currentDialogueIdx]["content"] !== undefined) {
+            // display the option component
+            const option = 
+            <div>
+                {/* <FlashScreen></FlashScreen> */}
+                <div className="choice-display">
+                    {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
+                        return (
+                            <div className='individual-option' key={`option_${idx}`} onClick={() => clickOption(option.response_idx, option.character, option.points)}>
+                                <p>{option.text}</p>
+                            </div>
+                            );
+                        })}
+                </div>             
+            </div>
+            return option;            
+        }
     }
 }
 
