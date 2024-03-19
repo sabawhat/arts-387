@@ -5,7 +5,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "GREETINGS LITTLE ONE."
+            "dialogue": "AH, HELLO LITTLE ONE."
         }
     },
     {
@@ -14,7 +14,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "IT IS PLEASING TO SEE YOU IN MY REALM."
+            "dialogue": "WELCOME."
         }
     },
     {
@@ -23,7 +23,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "MOST PLEASING INDEED."
+            "dialogue": "I WAS JUST THINKING HOW MUCH I DESIRED COMPANY."
         }
     },
     {
@@ -32,7 +32,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "THE VASTNESS HAS LONG BEEN MY COMPANION,"
+            "dialogue": "THIS SPACE FEELS...COLD TODAY, SOMEHOW."
         }
     },
     {
@@ -41,52 +41,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "BUT EVEN IT CAN BECOME...STIFLING AT TIMES."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "TOO SMALL FOR ME."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "HA."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "HA."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "HA."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "I JEST, AS IS THE CUSTOM OF YOUR PEOPLE, CORRECT?"
+            "dialogue": "COLDER AT LEAST THAN IT DID BEFORE."
         }
     },
     {
@@ -95,7 +50,7 @@
         "content":
             {
             "name": "{player}",
-            "dialogue": "..."
+            "dialogue": "Sorry."
         }
     },
     {
@@ -104,7 +59,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "WONDERFUL! I HOPE MY USE OF YOUR CUSTOMS HAS MADE YOU FEEL WELCOME."
+            "dialogue": "NONSENSE, LITTLE ONE."
         }
     },
     {
@@ -113,7 +68,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "I WISH THIS TO BE A WELCOMING SPACE."
+            "dialogue": "IT IS NOT YOUR DOING."
         }
     },
     {
@@ -122,7 +77,16 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "A SPACE WHERE YOU CAN FEEL COMFORTABLE."
+            "dialogue": "IF ANYTHING, I AM AFRAID IT IS IN MY NATURE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "A SIDE-EFFECT OF MY ETERNITY."
         }
     },
     {
@@ -131,7 +95,7 @@
         "content":
             {
             "name": "{player}",
-            "dialogue": "...Thanks."
+            "dialogue": "...What do you mean?"
         }
     },
     {
@@ -140,7 +104,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "OF COURSE, LITTLE ONE."
+            "dialogue": "WHAT DO YOU KNOW OF ENTROPY, LITTLE ONE?"
         }
     },
     {
@@ -149,79 +113,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "YOU ARE VERY INTERESTING TO ME."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "AND NOT JUST BECAUSE OF YOUR SMALLNESS."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "OR THE FLEETING NATURE OF YOUR LIFE."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "I AM FASCINATED WITH YOU BECAUSE DESPITE YOUR SIZE"
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "YOU HAVE THE CAPACITY TO IMAGINE ENORMOUSLY."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "BEYOND ANY SCALE YOU COULD ACTUALLY ACHIEVE."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "I FIND IT INVIGORATING, YOU SEE."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "INSPIRING, EVEN."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "DELTA-DOOM",
-            "dialogue": "BECAUSE IF YOU CAN CONCEIVE OF ME, IMAGINE WHAT I CAN CONCEIVE OF."
+            "dialogue": "OF IT'S PLACE IN THIS VASTNESS WE INHABIT?"
         }
     },
     {
@@ -230,7 +122,7 @@
         "content":
             {
             "name": "{player}",
-            "dialogue": "..."
+            "dialogue": "...."
         }
     },
     {
@@ -239,7 +131,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "IT'S A WONDERFULLY GENERATIVE THOUGHT."
+            "dialogue": "HAHA."
         }
     },
     {
@@ -248,7 +140,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "ONE I COULD CONSIDER FOR A LONG TIME."
+            "dialogue": "THAT IS ALRIGHT. I CAN EXPLAIN."
         }
     },
     {
@@ -257,7 +149,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "I ENJOY DWELLING ON THINGS, LITTLE ONE."
+            "dialogue": "ENTROPY IS THE PATHWAY BY WHICH ENERGY MOVES, LITTLE ONE."
         }
     },
     {
@@ -266,7 +158,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "HOLDING THEM IN MY MIND FOR EONS AND ETERNITIES."
+            "dialogue": "IT IS THE HEARTBEAT OF THE COSMOS."
         }
     },
     {
@@ -275,7 +167,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "LOOKING AT EACH FACT AND DETAIL."
+            "dialogue": "IN THE SAME WAY YOU ARE DESIGNED TO STRIVE FOR LIFE"
         }
     },
     {
@@ -284,7 +176,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "IT IS A GREAT GIFT OF MY ETERNITY"
+            "dialogue": "THE INFINITY STRIVES FOR CHAOS, FOR DISORDER."
         }
     },
     {
@@ -293,7 +185,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "THAT I CAN ALWAYS PONDER LONGER,"
+            "dialogue": "ENTROPY IS THE METHOD OF THIS STRIVING."
         }
     },
     {
@@ -302,7 +194,7 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "CAN ALWAYS LINGER IN MY IMAGININGS."
+            "dialogue": "BUT ENERGY CANNOT LAST FOREVER."
         }
     },
     {
@@ -311,7 +203,79 @@
         "content":
             {
             "name": "DELTA-DOOM",
-            "dialogue": "IF YOU WERE LIKE ME, WOULD YOU?"
+            "dialogue": "ALL THINGS MUST SETTLE, GIVEN TIME."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "AND WHEN THEY ARE SETTLED, THERE WILL BE NO MORE ENTROPY."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "AND THE UNIVERSE WILL DIE A FROZEN DEATH."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "DO YOU UNDERSTAND?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "I...I think so."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IT IS, I FEAR, THE NATURE OF ETERNAL THINGS TO STAGNATE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "WE ARE UNLIKE YOU. OUR LIVES OUTSTRETCH OUR DRIVING IMPULSES."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "CAN WE ANIMATE OURSELVES FOREVER? I DO NOT KNOW."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "AND THAT...FRIGHTENS ME."
         }
     },
     {
@@ -320,14 +284,14 @@
         "content": {
             "options": [
                 {
-                    "text": "Yes! I'd love more time to think things through.",
+                    "text": "You need to find someone who can animate you.",
                     "character": 3,
                     "points": 10,
                     "response_idx": 0
                 },
                 {
-                    "text": "Not really. Moving past things is more important to me.",
-                    "character": 0,
+                    "text": "You need to let go of your fear.",
+                    "character": 2,
                     "points": 5,
                     "response_idx": 1
                 }
@@ -342,7 +306,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "HOW WONDERFUL!"
+                    "dialogue": "YOU ARE VERY WISE, LITTLE ONE."
                 }
             },
             {
@@ -351,7 +315,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "IT IS PLEASING TO ME THAT WE SHARE THIS TRAIT."
+                    "dialogue": "VERY WISE INDEED."
                 }
             },
             {
@@ -360,7 +324,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "THAT IS ALSO IMPORTANT TO YOUR PEOPLE, IS IT NOT?"
+                    "dialogue": "AND, I BELIEVE, CORRECT IN YOUR ASSESSMENT."
                 }
             },
             {
@@ -369,7 +333,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "SHARED ATTRIBUTES. COMMUNAL QUALITIES."
+                    "dialogue": "THAT IS WHAT I AM STRIVING FOR, I THINK."
                 }
             },
             {
@@ -378,16 +342,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "THAT IS HOW YOU RELATE UNTO EACH OTHER, YES? "
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "{player}",
-                    "dialogue": "Uh, yeah?"
+                    "dialogue": "TO FIND THE PERSON WHO WILL STAY BY ME FOR ALL TIME."
                 }
             },
             {
@@ -396,7 +351,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "INCREDIBLE!"
+                    "dialogue": "WHO WILL LEND ME THEIR ENERGY WHEN MINE FAILS."
                 }
             },
             {
@@ -405,7 +360,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "THERE ARE NOT MANY LIKE ME, YOU SEE."
+                    "dialogue": "WHO WILL GIVE ME IMPULSE WHEN I AM WITHOUT."
                 }
             },
             {
@@ -414,7 +369,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "SO I DO NOT HAVE MANY TO COMPARE MYSELF TO."
+                    "dialogue": "IT IS A BEAUTIFUL THOUGHT, IS IT NOT?"
                 }
             },
             {
@@ -423,7 +378,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "BUT IT IS...NICE. HAVING SOMEONE WHO SHARES MY PERSPECTIVE."
+                    "dialogue": "THAT WE MAY EACH FIND SOMEONE WHO BRIGHTENS ALL OUR DAYS."
                 }
             },
             {
@@ -432,99 +387,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "I ENJOY THIS FEELING. IT IS QUITE WARM, AS YOU MIGHT SAY."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "I WOULD LIKE TO CONTINUE EXPERIENCING IT, IN THE FUTURE."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "THAT WOULD BE MOST SATISFACTORY FOR ME."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "AND, I HOPE, FOR YOU AS WELL LITTLE ONE."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "IT IS GOOD TO BE SATISFIED, DON'T YOU THINK?"
-                }
-            }
-        ],
-        [
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "HMM."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "MOVING PAST THINGS, YOU SAY."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "I AM AFRAID THIS IS NOT A CONCEPT I KNOW WELL."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "MY KIND ARE CREATURES OF HISTORY."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "OUR LONGEVITY DEMANDS IT, ALMOST."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "IT IS NOT OUR WAY TO LET GO, TO LET FADE."
+                    "dialogue": "EVEN AS THEY STRETCH BEYOND MORTAL COMPREHENSION."
                 }
             },
             {
@@ -541,8 +404,8 @@
                 "branch": true,
                 "content":
                     {
-                    "name": "DELTA-DOOM",
-                    "dialogue": "BUT I SUPPOSE THERE COULD BE SOME MERIT IN THE IDEA."
+                    "name": "{player}",
+                    "dialogue": "Yeah."
                 }
             },
             {
@@ -551,7 +414,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "NOT EVERYTHING THAT LINGERS IS PLEASANT."
+                    "dialogue": "INDEED."
                 }
             },
             {
@@ -560,7 +423,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "SOME OF IT IS QUITE...ALARMING, EVEN AFTER TIME HAS SMOOTHED THE EDGES."
+                    "dialogue": "THANK YOU FOR LISTENING TO ME, LITTLE ONE."
                 }
             },
             {
@@ -569,7 +432,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "PERHAPS IT WOULD BE EASIER TO LET GO, AS YOUR KIND DOES."
+                    "dialogue": "IT IS A RARE GIFT, TO BE HEARD."
                 }
             },
             {
@@ -578,7 +441,18 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "THEN AGAIN, PERHAPS THE UNPLEASANTNESS IS THE POINT."
+                    "dialogue": "I DO NOT TAKE IT LIGHTLY."
+                }
+            }
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "WERE IT ONLY THAT EASY, LITTLE ONE?"
                 }
             },
             {
@@ -587,7 +461,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "NOT ALL THAT IS TRUE IS NICE."
+                    "dialogue": "I AM NOT A BEING EASILY CHANGED."
                 }
             },
             {
@@ -596,7 +470,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "I THINK THE POINT, AS IT WERE"
+                    "dialogue": "FEAR, ONCE ROOTED IN ME, CANNOT BE EASILY TORN AWAY"
                 }
             },
             {
@@ -605,7 +479,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "IS TO FIND SOMEONE TO WEATHER EVERY TRUTH WITH."
+                    "dialogue": "MY PEOPLE WERE MADE TO ENDURE, YOU SEE."
                 }
             },
             {
@@ -614,7 +488,7 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "TO ENDURE WITH, YOU UNDERSTAND."
+                    "dialogue": "TO RIDE THE LONG RIVER OF TIME."
                 }
             },
             {
@@ -623,7 +497,25 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "BECAUSE EITHER WAY I MUST ENDURE THROUGH ALL TIME."
+                    "dialogue": "WE MUST NOT EASILY BREAK APART, IF WE WANT TO SURVIVE THAT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "Okay."
                 }
             },
             {
@@ -632,7 +524,25 @@
                 "content":
                     {
                     "name": "DELTA-DOOM",
-                    "dialogue": "I CAN ONLY HOPE I MUST NOT DO IT ALONE."
+                    "dialogue": "NONETHELESS, I APPRECIATE YOUR COUNSEL."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "YOU HAVE A PERSPECTIVE I LACK, LITTLE ONE."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "THAT'S NOTHING TO BE ASHAMED OF."
                 }
             }
         ]

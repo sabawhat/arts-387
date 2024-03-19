@@ -440,14 +440,14 @@
                     "options": [
                         {
                             "text": "Totally. Having something new helps make the old hurt less.",
-                            "character": "0",
+                            "character": 0,
                             "points": 10,
                             "response_idx": 0
                         },
                         {
                             "text": "Not really, I treasure the memories of time spent with people.",
-                            "character": "0",
-                            "points": 0,
+                            "character": 1,
+                            "points": 5,
                             "response_idx": 1
                         }
                     ]

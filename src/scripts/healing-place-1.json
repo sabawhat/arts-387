@@ -360,14 +360,14 @@
             "options": [
                 {
                     "text": "Yeah, moving on is what I'm trying to do.",
-                    "character": "0",
+                    "character": 0,
                     "points": 10,
                     "response_idx": 0
                 },
                 {
                     "text": "Hell no, I'd never let someone get to me that much!",
-                    "character": "0",
-                    "points": 0,
+                    "character": 2,
+                    "points": 5,
                     "response_idx": 1
                 }
             ]

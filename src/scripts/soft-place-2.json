@@ -366,14 +366,14 @@
             "options": [
                 {
                     "text": "For sure! I want to celebrate and be celebrated!",
-                    "character": "2",
-                    "points": 0,
+                    "character": 1,
+                    "points": 10,
                     "response_idx": 0
                 },
                 {
                     "text": "Eh. I'd rather push and pull, you know?",
-                    "character": "2",
-                    "points": 0,
+                    "character": 2,
+                    "points": 5,
                     "response_idx": 1
                 }
             ]

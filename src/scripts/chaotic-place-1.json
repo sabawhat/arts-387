@@ -246,14 +246,14 @@
             "options": [
                 {
                     "text": "Oh hell yeah.",
-                    "character": "2",
-                    "points": 0,
+                    "character": 2,
+                    "points": 10,
                     "response_idx": 0
                 },
                 {
                     "text": "That's seems kind of...violent.",
-                    "character": "2",
-                    "points": 0,
+                    "character": 0,
+                    "points": 5,
                     "response_idx": 1
                 }
             ]

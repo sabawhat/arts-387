@@ -222,14 +222,14 @@
             "options": [
                 {
                     "text": "Yeah, that sounds really lovely.",
-                    "character": "3",
-                    "points": 0,
+                    "character": 3,
+                    "points": 10,
                     "response_idx": 0
                 },
                 {
                     "text": "That feels like a lot to put on one person.",
-                    "character": "3",
-                    "points": 0,
+                    "character": 1,
+                    "points": 5,
                     "response_idx": 1
                 }
             ]

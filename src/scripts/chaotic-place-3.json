@@ -4,7 +4,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Oh, it's you."
+            "dialogue": "Fuck off."
         }
     },
     {
@@ -12,7 +12,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Hey."
+            "dialogue": "I'm not in the mood, okay?"
         }
     },
     {
@@ -20,7 +20,39 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "How's it going, or whatever."
+            "dialogue": "We've got this whole song and dance, okay, sure."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "But not to-fucking-day, alright."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "I can't do it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "Why?"
         }
     },
     {
@@ -36,7 +68,31 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Insert small talk here."
+            "dialogue": "Because I feel like a piece of shit, maybe?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You ever consider that."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Because I woke up and I hated myself."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Because I couldn't stand the asshole I saw in the mirror."
         }
     },
     {
@@ -52,7 +108,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Nah, mate, I'm messing with you."
+            "dialogue": "Are you happy? Is that what you wanted to hear?"
         }
     },
     {
@@ -60,7 +116,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Or maybe I'm not."
+            "dialogue": "Oh look, there goes Gouda."
         }
     },
     {
@@ -68,7 +124,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Who's to say?"
+            "dialogue": "Tugging on heart strings in the third act."
         }
     },
     {
@@ -76,7 +132,31 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "I mean, me. I'm to say. But I don't really want to."
+            "dialogue": "What a fucking performance."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "You could almost believe them, right?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "Except it's so out of character."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Gouda",
+            "dialogue": "So it's probably just an act, you feel me?"
         }
     },
     {
@@ -84,7 +164,15 @@
         "branch": false,
         "content": {
             "name": "{player}",
-            "dialogue": "...Okay?"
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "Is it?"
         }
     },
     {
@@ -92,7 +180,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "This feelings shit gets boring, you feel me?"
+            "dialogue": "NO!"
         }
     },
     {
@@ -100,7 +188,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Like, sure, it's important."
+            "dialogue": "Why the hell would it be an act?"
         }
     },
     {
@@ -108,7 +196,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "But sometimes it just makes me want to fucking kick rocks."
+            "dialogue": "Why would I put so much fucking effort into being someone I'm not?"
         }
     },
     {
@@ -116,7 +204,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "You know?"
+            "dialogue": "Huh?"
         }
     },
     {
@@ -124,119 +212,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Like I know my own deal."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "I don't gotta interrogate my shit."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "I'm already there. I understand it."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "And sure, getting to know someone takes time."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "You gotta talk. You have to get deep, or whatever."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "But it gets so repetitive, right?"
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "Like we gotta fucking linger over our fears and insecurities."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "Hammer in those vulnerabilities."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "And that just sucks."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "Because, right, if you know what's wrong with you."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "If you can fucking see it already."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "Then do something about it, you know?"
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "Push yourself. Work at it."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "And don't the people around you wallow in their shit."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content": {
-            "name": "Gouda",
-            "dialogue": "That's nothing. That's pointless."
+            "dialogue": "Why the fuck would I do that?"
         }
     },
     {
@@ -252,7 +228,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "If you're good with where you are, great."
+            "dialogue": "Fuck."
         }
     },
     {
@@ -260,7 +236,23 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Good for you."
+            "dialogue": "Sorry."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "I'm not mad at you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "I'm mad at my brain. Because it's mad at me."
         }
     },
     {
@@ -268,7 +260,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "I mean, I think you're lying to yourself."
+            "dialogue": "Because I committed to the fucking bit of myself."
         }
     },
     {
@@ -276,7 +268,15 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "But do what you gotta do, you feel?"
+            "dialogue": "But what happens when a bit stops being funny?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "What do you mean?"
         }
     },
     {
@@ -284,7 +284,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "And what I gotta do is stand next to someone in front of a fucking mirror."
+            "dialogue": "I'm a lot, okay? I know I'm a lot?"
         }
     },
     {
@@ -292,7 +292,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "And just look."
+            "dialogue": "I know a lot of people can't fucking stand me, and that's fine."
         }
     },
     {
@@ -300,7 +300,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "At yourself. At each other."
+            "dialogue": "It's whatever."
         }
     },
     {
@@ -308,7 +308,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "And then get real honest about what you're seeing."
+            "dialogue": "It's just..."
         }
     },
     {
@@ -316,7 +316,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "Because that's how you move forward, you know."
+            "dialogue": "I don't know, sometimes I can't believe anyone would stand me."
         }
     },
     {
@@ -324,7 +324,7 @@
         "branch": false,
         "content": {
             "name": "Gouda",
-            "dialogue": "It's the only damn way to do it."
+            "dialogue": "Why anyone wouldn't just leave me alone."
         }
     },
     {
@@ -333,14 +333,14 @@
         "content": {
             "options": [
                 {
-                    "text": "I feel you. We gotta push each other.",
+                    "text": "I would. I could tell you why.",
                     "character": 2,
                     "points": 10,
                     "response_idx": 0
                 },
                 {
-                    "text": "I think you need to find someone who wants the version of you that's already here.",
-                    "character": 3,
+                    "text": "Do you want me to stay?",
+                    "character": 1,
                     "points": 5,
                     "response_idx": 1
                 }
@@ -354,167 +354,111 @@
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "No doubt."
+                    "dialogue": "Could you?"
                 }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "That's the whole point of being around someone, you know?"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "All of us have something in flux."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "That's human nature, or whatever."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "And you gotta find the person"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Who helps you make the most of that."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Or else you'll just get stuck."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Which sucks."
-                }
-            },
+            }, 
             {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
                     "name": "{player}",
-                    "dialogue": "Yeah."
+                    "dialogue": "Sure."
                 }
-            },
+            }, 
             {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "And that's not what we're here for, you know?"
+                    "dialogue": "I don't believe you."
                 }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "We're here to get different."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Not better. Not worse. Just different."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "And maybe you end up liking that different."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Maybe you fucking hate it."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "But you can always keep getting different."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "As long as you're getting more like yourself."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "You get me?"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Be who you fucking are. Allow yourself to change."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Fuck anyone who says otherwise."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Right?"
-                }
-            },
+            }, 
             {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
                     "name": "{player}",
-                    "dialogue": "Right."
+                    "dialogue": "Don't believe me then."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "Doesn't make you right."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Heh."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "I like this side of you."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "It's fiery. Hot to the touch."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "Thanks?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Yeah, nerd, it's a good thing."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Okay?"
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "Alright, you're not a loser."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "Okay."
                 }
             },
             {
@@ -522,113 +466,49 @@
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "Hell yeah."
+                    "dialogue": "Now why don't you get started on your list."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "..."
+                }
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "Gouda",
+                    "dialogue": "If you want."
                 }
             }
-        ],
+        ], 
         [
             {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "You sound like DD."
+                    "dialogue": "Nah. I don't need your pity."
                 }
-            },
+            }, 
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content": {
+                    "name": "{player}",
+                    "dialogue": "It's not pity."
+                }
+            }, 
             {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "Which, you know, power to you or whatever."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "But I think you're wrong."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "You're a human being, you know?"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "You're never gonna be one thing forever."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "That would be fucking boring."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Because you gotta be yourself, right."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "But yourself is clay, it's moldable and shit."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "Stagnating is boring. It's pointless."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "It doesn't get you anywhere."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "And you can lie to yourself if you want"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "But we're all trying to get somewhere."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "You clearly are, or you wouldn't fucking be here."
+                    "dialogue": "Isn't it?"
                 }
             },
             {
@@ -644,7 +524,7 @@
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "Tch. Whatever."
+                    "dialogue": "Get out of here."
                 }
             },
             {
@@ -652,15 +532,7 @@
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "Good luck with your thing, I guess."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content": {
-                    "name": "Gouda",
-                    "dialogue": "I don't get it, but maybe I'm not supposed to."
+                    "dialogue": "Don't make me tell you twice."
                 }
             }
         ]
