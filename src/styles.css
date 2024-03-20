@@ -3,6 +3,22 @@ html, body {
     padding: 0;
 }
 
+.backgrounds {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.backgrounds img {
+  max-width: 100%; /* Ensures that the image shrinks to fit the width of the div */
+  max-height: 100%; /* Ensures that the image shrinks to fit the height of the div */
+  display: block; /* Ensures proper spacing around the image */
+  margin: auto; /* Centers the image horizontally within the div */
+}
+
 .start {
   display: flex;
   justify-content: center;

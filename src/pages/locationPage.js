@@ -1,9 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-
 import QuitComponent from "../components/quitComponent";
+import Background from "../components/backgroundComponent";
+
+import SoundToggle from "../components/soundToggleComponent";
+import temp2 from '../assets/sounds/temp2.mp3'
+
+import choiceImg from '../assets/backgrounds/choice.png'
+
 function LocationPage() {  
+    sessionStorage.setItem('soundFile', temp2);
     const round = sessionStorage.getItem('round');
     const parseRound = parseInt(round, 10);
 
@@ -56,6 +63,7 @@ function LocationPage() {
 
     const html = 
     <div>
+        <Background backgroundImg={choiceImg}></Background>
         <QuitComponent></QuitComponent>
         <div className="choice-display-container">
             <p>choose a location to go to:</p>
