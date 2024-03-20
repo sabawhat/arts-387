@@ -307,6 +307,7 @@
     {
         "type": "option",
         "branch": false,
+        "end": true,
         "content": {
             "options": [
                 {

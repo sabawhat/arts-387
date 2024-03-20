@@ -92,325 +92,329 @@
         } 
     },
     [
-        []
-    ],
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
+        [    
             {
-            "name": "",
-            "dialogue": "Interesting."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "I didn't think so."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "And I'm never wrong."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "I've been watching you."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "I've been watching you closely."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "Very closely."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "And I have one question for you?."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "Do you know what you want?."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "{player}",
-            "dialogue": "..."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "It's a hard question, isn't it?"
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "A complicated one."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "Not everyone can answer it."
-        }
-    },
-    {
-        "type": "dialogue",
-        "branch": false,
-        "content":
-            {
-            "name": "",
-            "dialogue": "Can you? 42."
-        }
-    },
-    {
-        "type": "option",
-        "branch": false,
-        "content": {
-            "options": [
-                {
-                    "text": "Yes.",
-                    "character": 0,
-                    "points": 0,
-                    "response_idx": 0
-                },
-                {
-                    "text": "No.",
-                    "character": 0,
-                    "points": 0,
-                    "response_idx": 1
-                },
-                {
-                    "text": "I don't know.",
-                    "character": 0,
-                    "points": 0,
-                    "response_idx": 2
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "Interesting."
                 }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "I didn't think so."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "And I'm never wrong."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "I've been watching you."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "I've been watching you closely."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "Very closely."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "And I have one question for you?."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "Do you know what you want?."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "It's a hard question, isn't it?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "A complicated one."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "Not everyone can answer it."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "",
+                    "dialogue": "Can you? 42."
+                }
+            },
+            {
+                "type": "option",
+                "branch": true,
+                "content": {
+                    "options": [
+                        {
+                            "text": "Yes.",
+                            "character": 0,
+                            "points": 0,
+                            "response_idx": 0
+                        },
+                        {
+                            "text": "No.",
+                            "character": 0,
+                            "points": 0,
+                            "response_idx": 1
+                        },
+                        {
+                            "text": "I don't know.",
+                            "character": 0,
+                            "points": 0,
+                            "response_idx": 2
+                        }
+                    ]
+                } 
+            },
+            [
+                [
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "You shouldn't end up here, then."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "Maybe it's time to TRY AGAIN."
+                        }
+                    },
+                    {
+                        "type": "option",
+                        "branch": true,
+                        "end": true,
+                        "content": {
+                            "options": [
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                }
+                            ]
+                        } 
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "Isn't that something worth figuring out?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "You should try, at least, before you run out of time to TRY AGAIN."
+                        }
+                    },
+                    {
+                        "type": "option",
+                        "branch": true,
+                        "end": true,
+                        "content": {
+                            "options": [
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                }
+                            ]
+                        } 
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "Well at least you're honest about it."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "But that's not a place you can stay, is it?"
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "You need to move forward."
+                        }
+                    },
+                    {
+                        "type": "dialogue",
+                        "branch": true,
+                        "content":
+                            {
+                            "name": "",
+                            "dialogue": "And the only way to do that is to TRY AGAIN."
+                        }
+                    },
+                    {
+                        "type": "option",
+                        "branch": true,
+                        "end": true,
+                        "content": {
+                            "options": [
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                },
+                                {
+                                    "text": "TRY AGAIN",
+                                    "character": 0,
+                                    "points": 0,
+                                    "response_idx": 0
+                                }
+                            ]
+                        } 
+                    }
+                ]
             ]
-        } 
-    },
-    [
-        [
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "You shouldn't end up here, then."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "Maybe it's time to TRY AGAIN."
-                }
-            },
-            {
-                "type": "option",
-                "branch": true,
-                "content": {
-                    "options": [
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        }
-                    ]
-                } 
-            }
-        ],
-        [
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "Isn't that something worth figuring out?"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "You should try, at least, before you run out of time to TRY AGAIN."
-                }
-            },
-            {
-                "type": "option",
-                "branch": true,
-                "content": {
-                    "options": [
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        }
-                    ]
-                } 
-            }
-        ],
-        [
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "Well at least you're honest about it."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "But that's not a place you can stay, is it?"
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "You need to move forward."
-                }
-            },
-            {
-                "type": "dialogue",
-                "branch": true,
-                "content":
-                    {
-                    "name": "",
-                    "dialogue": "And the only way to do that is to TRY AGAIN."
-                }
-            },
-            {
-                "type": "option",
-                "branch": true,
-                "content": {
-                    "options": [
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        },
-                        {
-                            "text": "TRY AGAIN",
-                            "character": 0,
-                            "points": 0,
-                            "response_idx": 0
-                        }
-                    ]
-                } 
-            }
         ]
     ]
 ]

@@ -5,6 +5,8 @@ import loadJson from "../dialogueManager";
 import FlashScreen from "./flashComponent";
 
 function TextDisplay() {
+    // TODO: make options for try again restart the game
+    // TODO: add loop for pixie
     // get the current location, round to select the right script
     const allScripts = loadJson();
     const currentRound = parseInt(sessionStorage.getItem('round'), 10) - 1; // subtract 1 to get the idx
@@ -16,18 +18,19 @@ function TextDisplay() {
         location_idx = 1
     } else if (location === 'a chaotic place') {
         location_idx = 2
-    } else if (location === 'a chaotic place') {
+    } else if (location === 'an eternal place') {
         location_idx = 3
     }
 
     // 3 cases for script: normal, last round high/low, eternal
     // if last round, special case to select script
     if (currentRound + 1 === 4) {
-        console.log("on last round")
-        if (location === 'empty place') {
+        if (location === 'an empty place') {
             var selectedScript = allScripts[4][0]
+            console.log(selectedScript)
         } else {
-            const all_points = sessionStorage.getItem('meter')
+            const all_points = JSON.parse(sessionStorage.getItem('meter'));
+            console.log(all_points[location_idx])
             if (all_points[location_idx] < 20) {
                 // set to low case
                 var selectedScript = allScripts[location_idx][3]
@@ -73,7 +76,6 @@ function TextDisplay() {
                 // if we are on a branch and we have reached the end, we want to set the current dialogue idx to the main one and select the old script
                 if (mainDialogueIdx < selectedScript.length - 1) {
                     if ((currentScript[currentDialogueIdx]['branch'])) {
-                        console.log('enterin ghere')
                         setCurrentDialogueIdx(mainDialogueIdx + 1);
                         setCurrentScript(selectedScript);
                     }                    
@@ -85,7 +87,6 @@ function TextDisplay() {
 
         const handleKeyPress = (event) => {
             if ((event.key === 'Enter') && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
-                console.log("pressed enter?", currentScript, currentDialogueIdx)
                 // if the text is still displaying, display the rest of the text 
                 if ((displayDialogue.length < charDialogue.length) && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
                     setDisplayDialogue(charDialogue);
@@ -145,10 +146,15 @@ function TextDisplay() {
             return Array.isArray(newScript) ? newScript : [newScript];
         });
         setCurrentDialogueIdx(0);
-        console.log('hiiii')
+    }
+
+    // reset the game for try again
+    const resetGame = () => {
+        sessionStorage.clear();
+        navigate(`/`);
     }
     
-    console.log(currentScript, currentDialogueIdx);
+    // check if end key is in the dictionary, if so quit the game
     if (currentScript[currentDialogueIdx]['type'] === 'dialogue') {
         // display the dialogue component
         const diag =   
@@ -175,7 +181,7 @@ function TextDisplay() {
                 <div className="choice-display">
                     {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                         return (
-                            <div className='individual-option' key={`option_${idx}`} onClick={() => clickOption(option.response_idx, option.character, option.points)}>
+                            <div className='individual-option' key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
                                 <p>{option.text}</p>
                             </div>
                             );

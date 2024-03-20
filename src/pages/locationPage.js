@@ -12,12 +12,13 @@ function LocationPage() {
     ]
 
     // change available locations based on the current round 
-    if (parseRound > 3) {
+    if (parseRound >= 3) {
         // calculate all the points and list all available ones
         var final_locations = []
         // iterate through the meter and set the locations based on the threshold
-        const meter_status = sessionStorage.getItem('meter')
+        const meter_status = JSON.parse(sessionStorage.getItem('meter'));
         for (let i = 0; i < meter_status.length; i++) {
+            console.log(meter_status[i])
             if (meter_status[i] > 9) {
                 final_locations.push(locations[i])
             }
@@ -32,7 +33,7 @@ function LocationPage() {
         // if the selected location is random randomly select one
         var selected_place = place;
         if (place === 'random!') {
-            random_idx = Math.floor(Math.random() * locations.length)
+            const random_idx = Math.floor(Math.random() * locations.length)
             selected_place = locations[random_idx]
         }
         // store the current location
@@ -46,10 +47,10 @@ function LocationPage() {
             navigate(`/a-soft-place`);  
         } else if (selected_place === 'a chaotic place') {
             navigate(`/a-chaotic-place`);  
-        } else if (selected_place === 'a eternal place') {
+        } else if (selected_place === 'an eternal place') {
             navigate(`/an-eternal-place`);  
-        } else if (selected_place === 'a empty place') {
-            naviagte(`/an-empty-place`)
+        } else if (selected_place === 'an empty place') {
+            navigate(`/an-empty-place`)
         }
     }
 
