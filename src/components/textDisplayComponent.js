@@ -10,7 +10,9 @@ function TextDisplay() {
     // get the current location, round to select the right script
     const allScripts = loadJson();
     const currentRound = parseInt(sessionStorage.getItem('round'), 10) - 1; // subtract 1 to get the idx
-    const location = sessionStorage.getItem('location')
+    const location = sessionStorage.getItem('location');
+    const all_points = JSON.parse(sessionStorage.getItem('meter'));
+
     var location_idx = 0;
     if (location === 'a healing place') {
         location_idx = 0
@@ -27,13 +29,19 @@ function TextDisplay() {
     if (currentRound + 1 === 4) {
         if (location === 'an empty place') {
             var selectedScript = allScripts[4][0]
-            console.log(selectedScript)
         } else {
-            const all_points = JSON.parse(sessionStorage.getItem('meter'));
-            console.log(all_points[location_idx])
             if (all_points[location_idx] < 20) {
                 // set to low case
                 var selectedScript = allScripts[location_idx][3]
+                if ((location === 'a soft place')) {
+                    // get the last 4 elements of the script to loop
+                    const loop = selectedScript.slice(-4);
+                    var duplicate = [];
+                    for (let i = 0; i < 1000; i ++) {
+                        duplicate = duplicate.concat(loop);
+                    }
+                    selectedScript = selectedScript.concat(duplicate);
+                }
             } else {
                 // set to high case
                 var selectedScript = allScripts[location_idx][4]
@@ -51,8 +59,6 @@ function TextDisplay() {
     const [charDialogue, setCharDialogue] = useState('');
     const [intervalID, setIntervalID] = useState(0);
     const [displayDialogue, setDisplayDialogue] = useState('');
-
-
 
     // set display to correct character
     useEffect(() => {
@@ -96,7 +102,6 @@ function TextDisplay() {
                 }
                 clearInterval(intervalID);  
             }                
-            
         };
         
         document.addEventListener('keypress', handleKeyPress);
@@ -170,7 +175,6 @@ function TextDisplay() {
                 </div>
             </div>               
         </div>
-     
         return diag;
     } else {
         if (currentScript[currentDialogueIdx]["content"] !== undefined) {
