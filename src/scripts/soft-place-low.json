@@ -1,0 +1,488 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Oh, uh, hi!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I was hop- er."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I wasn't expecting to see you!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Not that seeing you is bad or anything!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I just, um..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I thought maybe you wouldn't come."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Which would have been okay!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You're not, like, obligated to talk to me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "That would be weird."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Ha ha."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Are you okay?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "What? Me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I'm fine."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Totally fine."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Super fine."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "How are you???"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Fine?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "That's great!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "We're both fine! Yay!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Everything gets to be fine!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "I came"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Of course you came, silly. I can see you right now."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Which I obviously couldn't do if you weren't here."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Well, I could, I guess. But that would be..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Weird."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Weird and not fine."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "O...kay."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "I have a question for you"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You do!?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "*COUGHS*"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I mean, of course you do."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "It's that time, isn't it?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Question time."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "We can ask each other all sorts of questions."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Why is the sky blue?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Why are they called turtles?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Who's putting all those pots of gold at the end of rainbows?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Wow, these questions sure are fun."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Um."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "That's not what you meant, is it?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You have THE question to ask."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Yeah."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Okay."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Okay!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You can ask. And I'll..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I'll answer, I guess."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Do you want to go out with me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Or we could just be friends?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "..."
+        }
+    }
+]

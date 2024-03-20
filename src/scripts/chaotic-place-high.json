@@ -1,0 +1,511 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Hey."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It's good to see you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Or whatever."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Oh, who am I kidding?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It <i>is<i> good to see you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "I mean, repeat that to anyone and they won't believe you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "But it's true."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Thanks."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "No problem, lover."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Oh, did you think I didn't know what was about to happen?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "That's cute."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Wrong, but cute."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It's not my first time around the block, kid."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "I know all the ins-and-outs of this game."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "...What?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You're not the only one who knows what's going on."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "The others, they might not see it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "But I do."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "I see <i>all the way through."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Always have, long as I can remember."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Rough, isn't it?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Having to think about the fact I <i>know I'm being played with?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Takes some of the fucking fun out, right?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "And listen, I don't begrudge you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "I don't have a problem with the shit you're doing."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It's a game, and we're all just playing to win."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Isn't that what you're doing?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Trying to win?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "I guess."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Nah, you don't fucking guess."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You know. You're just afraid to admit it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "But this is what you wanted right? Me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Well you have me. And I have you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Just like so many other players."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "What?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You're not the first person to play."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You won't be the last."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "And I like winning. I do it as much as I can."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "I'm winning now, and I'll win again after you're gone."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "I'm winning now, and I'll win again after you're gone."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Can you stomach the fact you're just one on a long list?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Can you?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Because if you can't, you really should TRY AGAIN."
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                }
+            ]
+        } 
+    }
+]

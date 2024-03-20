@@ -1,0 +1,412 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "EEEEEEEEEEEEEEEE!!!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I'm SO EXCITED that you're HERE!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Like, I sort of figured you'd come."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "'Cause, let's face it, why wouldn't you?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "But there was a teeny tiny part of me that doubted?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "And she was wrong!!! So she can suck it!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "'Cause you CAME!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "YAYAYAYAYAYAY!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Yay."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "OH MY GOSH I'm getting ahead of myself."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Whoopsie."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Hahaha."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "There's a proper way to do this, right?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "So let's do that!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "...Okay."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Do you want to go out with me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "*GRINNING*"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "aaaaaAAAAAA!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "YES!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I would LOVE to go out with you!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "That would make me, like, the most happy!!!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You would LITERALLY not believe how happy you asking makes me."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Like, it's super silly, but in a fun and flirty way."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You know?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "You know."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "We should totally go RIGHT NOW!"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Hold on, let me grab my shoes."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Uh, while I'm gone, could you think about something?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "It's not, like, a big deal or anything."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I've just been wondering about it."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Sure."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Do you want me as a person? Or just a body?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "'Cause i get it. Being lonely sucks."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "But you know what sucks just as much?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "Knowing you could be anyone else."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "And the person you're with wouldn't care."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "I'm not the answer to loneliness."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Pixie",
+            "dialogue": "If you think I am, you better TRY AGAIN."
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                }
+            ]
+        } 
+    }
+]

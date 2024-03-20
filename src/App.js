@@ -18,6 +18,7 @@ function App() {
           <Route path="a-soft-place" element={<GeneralPage />}/>
           <Route path="a-chaotic-place" element={<GeneralPage />}/>
           <Route path="an-eternal-place" element={<GeneralPage />}/>
+          <Route path="an-empty-place" element={<GeneralPage />}/>
         </Route>
       </Routes>
     </BrowserRouter>

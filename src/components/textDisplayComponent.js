@@ -8,8 +8,37 @@ function TextDisplay() {
     // get the current location, round to select the right script
     const allScripts = loadJson();
     const currentRound = parseInt(sessionStorage.getItem('round'), 10) - 1; // subtract 1 to get the idx
-    const location = parseInt(sessionStorage.getItem('location'), 10);
-    const selectedScript = allScripts[location][currentRound]
+    const location = sessionStorage.getItem('location')
+    var location_idx = 0;
+    if (location === 'a healing place') {
+        location_idx = 0
+    } else if (location === 'a soft place') {
+        location_idx = 1
+    } else if (location === 'a chaotic place') {
+        location_idx = 2
+    } else if (location === 'a chaotic place') {
+        location_idx = 3
+    }
+
+    // 3 cases for script: normal, last round high/low, eternal
+    // if last round, special case to select script
+    if (currentRound + 1 === 4) {
+        console.log("on last round")
+        if (location === 'empty place') {
+            var selectedScript = allScripts[4][0]
+        } else {
+            const all_points = sessionStorage.getItem('meter')
+            if (all_points[location_idx] < 20) {
+                // set to low case
+                var selectedScript = allScripts[location_idx][3]
+            } else {
+                // set to high case
+                var selectedScript = allScripts[location_idx][4]
+            }
+        }
+    } else {
+        var selectedScript = allScripts[location_idx][currentRound]
+    }    
     
     const [currentScript, setCurrentScript] = useState(selectedScript);
     const [mainDialogueIdx, setMainDialogueIdx] = useState(0);
@@ -19,6 +48,8 @@ function TextDisplay() {
     const [charDialogue, setCharDialogue] = useState('');
     const [intervalID, setIntervalID] = useState(0);
     const [displayDialogue, setDisplayDialogue] = useState('');
+
+
 
     // set display to correct character
     useEffect(() => {

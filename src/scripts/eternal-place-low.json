@@ -1,0 +1,374 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "HELLO LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "YOU'VE COME TO ASK ME A QUESTION, HAVEN'T YOU."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "SO SMALL, WITH SUCH BIG AMBITIONS"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "GO AHEAD, ASK."
+        }
+    },    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IT'S FRIGHTENING, ISN'T IT?."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "TO ASK. TO REVEAL WHAT YOU WANT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "DESIRE AND WEAKNESS ARE...DIFFICULT TO UNSPOOL."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "BOTH MAKE US VULNERABLE. LEAVE US OPEN TO HURT."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IT WOULD BE EASIER TO BE WITHOUT THEM, WOULDN'T IT, LITTLE ONE?"
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "Yes.",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "No.",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                }
+            ]
+        } 
+    },
+    [
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "AND YET HERE YOU ARE, BARING YOUR SOUL?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "IF THAT IS WHAT YOU'RE DOING."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "WE'VE KNOWN EACH OTHER FOR SUCH LITTLE TIME."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "HOW CAN YOU KNOW THIS IS WHAT YOU WANT?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "{player}",
+                    "dialogue": "..."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "BUT OF COURSE, YOU DON'T KNOW WHAT YOU WANT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "DO YOU, LITTLE ONE?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "YOU HAVE NO CLUE WHAT YOU'RE LOOKING FOR."
+                }
+            }
+        ],
+        [
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "HOW VERY HUMAN OF YOU."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "YOUR KIND PRAISES VULNERABILITY, LAUDS IT."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "DO YOU, REALLY? DO YOU HAVE THE STRENGTH TO BE VULNERABLE?"
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "I DON'T THINK SO."
+                }
+            },
+            {
+                "type": "dialogue",
+                "branch": true,
+                "content":
+                    {
+                    "name": "DELTA-DOOM",
+                    "dialogue": "IF YOU DO, I HAVE NOT OBSERVED IT."
+                }
+            }
+        ]
+    ],
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "GO AHEAD. ASK YOUR QUESTION."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "I CAN GUARANTEE YOU WON'T LIKE THE ANSWER."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Why?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "YOUR LIFE MAY BE SHORT, LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "BUT MINE STRETCHES LONGER THAN YOU CAN EVEN IMAGINE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "YOU WANT A LOVE THAT'S ETERNAL, CORRECT?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "WHAT MAKES YOU THINK YOU'RE WORTH MY ETERNITY?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "YOU ARE NOTHING TO ME, LITTLE ONE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "A GRAIN OF SAND ON THE VAST BEACH OF THE UNIVERSE."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "DELTA-DOOM",
+            "dialogue": "IF YOU WANT TO CONVINCE ME OTHERWISE, YOU'LL HAVE TO TRY AGAIN."
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                }
+            ]
+        } 
+    }
+]

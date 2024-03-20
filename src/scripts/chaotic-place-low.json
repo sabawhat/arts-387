@@ -1,0 +1,259 @@
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You came to ask me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Cute."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You're funny, you know that?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Really funny."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "But I'm going to have to say no."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "Why?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "To be frank, I'm just not interested in you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "At least not enough to keep going."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Honestly, I don't find your narrative that compelling."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "What? You thought you were the only one who knew?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You were the only one smart enough to figure it out?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You're not."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Why would you be?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Do you think you're special?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "That you get to know something no one else does?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Do you think that makes you interesting?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It doesn't. It doesn't make you anything."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Except lonely, I guess."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "Or just alone."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "But no hard feelings, right?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It's a game after all. We're all playing to win."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "You lost. Big deal."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content":
+            {
+            "name": "Gouda",
+            "dialogue": "It's not like you can't TRY AGAIN."
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                }
+            ]
+        } 
+    }
+]

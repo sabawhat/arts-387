@@ -1,0 +1,323 @@
+
+[
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Oh, um, hi."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "I hoped you'd come."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Because I, um, like you a lot."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "And I think we could be really, um, good together."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "If you want to be, I mean."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Obviously no, um, no pressure."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Because it would be really weird if I pressured you."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Into things."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "That you didn't want to do."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Ha ha."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "I'm really messing this up, huh?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "You're not."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Oh. Good."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "So, um, what do you say?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "I'd like that. Being good together."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Cool."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Cool cool cool."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Wow."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "That's, um, amazing."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Really."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "Yeah."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "I- sorry."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "It's not important."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "What is it?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "I just had a, um, question."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Like a teeny tiny one."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Super small."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "What's up?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Just, from our talks, I have to know..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Do you really want me?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Or do you just want someone who can fix you?"
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "{player}",
+            "dialogue": "..."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "Because I, um, can't do that."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "I can help. But I can't make you better."
+        }
+    },
+    {
+        "type": "dialogue",
+        "branch": false,
+        "content": {
+            "name": "Andy",
+            "dialogue": "So if that's what you're looking for, you might want to TRY AGAIN."
+        }
+    },
+    {
+        "type": "option",
+        "branch": false,
+        "content": {
+            "options": [
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                },
+                {
+                    "text": "TRY AGAIN",
+                    "character": "0",
+                    "points": 0,
+                    "response_idx": 0
+                }
+            ]
+        } 
+    }
+]

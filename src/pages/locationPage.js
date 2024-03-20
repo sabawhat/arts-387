@@ -4,35 +4,52 @@ import { useNavigate } from "react-router-dom";
 
 import QuitComponent from "../components/quitComponent";
 function LocationPage() {  
+    const round = sessionStorage.getItem('round');
+    const parseRound = parseInt(round, 10);
 
-    const locations = [
+    var locations = [
         'a healing place', 'a soft place', 'a chaotic place', 'an eternal place', 'random!'
     ]
 
-    let navigate = useNavigate();     
-    const clickOption = (idx) => {
-        // if the selected location is random randomly select one
-        var selected_idx = idx;
-        if (idx === 4) {
-            selected_idx = Math.floor(Math.random() * 4)
+    // change available locations based on the current round 
+    if (parseRound > 3) {
+        // calculate all the points and list all available ones
+        var final_locations = []
+        // iterate through the meter and set the locations based on the threshold
+        const meter_status = sessionStorage.getItem('meter')
+        for (let i = 0; i < meter_status.length; i++) {
+            if (meter_status[i] > 9) {
+                final_locations.push(locations[i])
+            }
         }
-        console.log(' selected loc ', locations[selected_idx])
+        final_locations.push('an empty place');
+        final_locations.push('random!')
+        locations = final_locations
+    }
+
+    let navigate = useNavigate();     
+    const clickOption = (place) => {
+        // if the selected location is random randomly select one
+        var selected_place = place;
+        if (place === 'random!') {
+            random_idx = Math.floor(Math.random() * locations.length)
+            selected_place = locations[random_idx]
+        }
         // store the current location
-        sessionStorage.setItem('location', (selected_idx).toString());
-        const round = sessionStorage.getItem('round');
-        const parseRound = parseInt(round, 10);
+        sessionStorage.setItem('location', selected_place);
         sessionStorage.setItem('round', (parseRound + 1).toString());
 
-        // temp remove later
         // route to the right url
-        if (selected_idx === 0) {
+        if (selected_place === 'a healing place') {
             navigate(`/a-healing-place`);            
-        } else if (selected_idx === 1) {
+        } else if (selected_place === 'a soft place') {
             navigate(`/a-soft-place`);  
-        } else if (selected_idx === 2) {
+        } else if (selected_place === 'a chaotic place') {
             navigate(`/a-chaotic-place`);  
-        } else if (selected_idx === 3) {
+        } else if (selected_place === 'a eternal place') {
             navigate(`/an-eternal-place`);  
+        } else if (selected_place === 'a empty place') {
+            naviagte(`/an-empty-place`)
         }
     }
 
@@ -44,7 +61,7 @@ function LocationPage() {
             <div className="choice-display">
                     {locations.map((option, idx) => {
                         return (
-                            <div className='individual-option' key={`option_${idx}`} onClick={() => clickOption(idx)}>
+                            <div className='individual-option' key={`option_${idx}`} onClick={() => clickOption(option)}>
                                 <p>{option}</p>
                             </div>
                             );
