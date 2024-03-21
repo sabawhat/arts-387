@@ -84,9 +84,10 @@ function TextDisplay() {
         const nextDialogue = () => {
             if (currentDialogueIdx < currentScript.length - 1) {
                 // check if there is an expression if there is change to a diff sprite
-                if (currentScript[currentDialogueIdx]["expression"] !== undefined) {
+                if (currentScript[currentDialogueIdx + 1]["expression"] !== undefined) {
                     // get the expression
-                    const expression = currentScript[currentDialogueIdx]["expression"];
+                    const expression = currentScript[currentDialogueIdx+1]["expression"];
+                    console.log("here", expression, currentScript)
                     if (expression === 'neutral') {
                         setCharSprite(char_imgs[0]);
                     } else if (expression === 'happy') {
