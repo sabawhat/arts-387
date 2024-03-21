@@ -4,31 +4,26 @@ import TextDisplay from "../components/textDisplayComponent";
 import QuitComponent from "../components/quitComponent";
 import Background from "../components/backgroundComponent";
 
-import andyBackgroundImg from "../assets/backgrounds/andy.png"
-import goudaBackgroundImg from "../assets/backgrounds/gouda_1.png"
-
-import ddSprite from "../assets/sprites/dd_neutral.png"
-import andySprite from "../assets/sprites/andy_neutral.PNG"
-import pixieSprite from "../assets/sprites/pixie_neutral.PNG"
-import goudaSprite from "../assets/sprites/gouda_neutral.PNG"
+import loadAsssets from "../assetManager";
 
 function GeneralPage() {
     // check the route to input the appropriate background
+    const all_backgrounds = loadAsssets();
     const location = sessionStorage.getItem('location');
     var backgroundImg = '';
     var charImg = '';
     if (location === 'a healing place') {
-        charImg = andySprite;
-        backgroundImg = andyBackgroundImg;           
+        charImg = all_backgrounds[0][0];
+        backgroundImg = all_backgrounds[0][4];           
     } else if (location === 'a soft place') {
         // temp 
-        charImg = pixieSprite;
+        // charImg = pixieSprite;
     } else if (location === 'a chaotic place') {
-        charImg = goudaSprite;
-        backgroundImg = goudaBackgroundImg;
+        // charImg = goudaSprite;
+        // backgroundImg = goudaBackgroundImg;
     } else if (location === 'an eternal place') {
         // temp 
-        charImg = ddSprite;
+        // charImg = ddSprite;
     } else if (location === 'an empty place') {
         // temp
     }

@@ -5,6 +5,7 @@ import SoundToggle from '../components/soundToggleComponent';
 
 import mainMenuImg from "../assets/backgrounds/main_menu.png"
 function StartPage() {
+    // sessionStorage.setItem('soundFile', )
     return (
         <div>
             <SoundToggle></SoundToggle>
