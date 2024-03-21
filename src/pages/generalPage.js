@@ -50,7 +50,7 @@ function GeneralPage() {
     <div>
         <QuitComponent></QuitComponent>
         <div className="game-page">
-            <ImageDisplay charSprite={charImg}></ImageDisplay>
+            {/* <ImageDisplay charSprite={charImg}></ImageDisplay> */}
             <div className='text-display-wrapper'>
                 <TextDisplay></TextDisplay>
             </div>

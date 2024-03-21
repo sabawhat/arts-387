@@ -4,26 +4,38 @@ import { useNavigate } from "react-router-dom";
 import loadJson from "../dialogueManager";
 import FlashScreen from "./flashComponent";
 import { useSounds } from "../soundManager";
+import loadAsssets from "../assetManager";
 
 function TextDisplay() {
     // get the current location, round to select the right script
     const allScripts = loadJson();
+    const all_backgrounds = loadAsssets();
     const {sounds} = useSounds();
     const currentRound = parseInt(sessionStorage.getItem('round'), 10) - 1; // subtract 1 to get the idx
     const location = sessionStorage.getItem('location');
     const all_points = JSON.parse(sessionStorage.getItem('meter'));
     var font_family = 'Times New Roman';
     var location_idx = 0;
+    var char_imgs = '';
+    var charSprite = '';
     if (location === 'a healing place') {
         location_idx = 0
         font_family = "Coiny";
+        char_imgs = all_backgrounds[0]
+        charSprite = char_imgs[0]
     } else if (location === 'a soft place') {
         location_idx = 1
+        char_imgs = all_backgrounds[1]
+        charSprite = char_imgs[0]
     } else if (location === 'a chaotic place') {
         location_idx = 2
         font_family = "Jacques Francois Shadow";
+        char_imgs = all_backgrounds[2]
+        charSprite = char_imgs[0]
     } else if (location === 'an eternal place') {
         location_idx = 3
+        char_imgs = all_backgrounds[3]
+        charSprite = char_imgs[0]
     }
 
     // 3 cases for script: normal, last round high/low, eternal
@@ -178,6 +190,9 @@ function TextDisplay() {
         const diag =   
         <div>
             {/* <FlashScreen></FlashScreen> */}
+            <div className="image-display">
+                <img src={charSprite}></img>
+            </div>  
             <div className="text-display" style={{fontFamily: font_family}}>
                 <h3 className="character-name">{charName}</h3>
                 <hr></hr>
@@ -190,6 +205,9 @@ function TextDisplay() {
             // display the option component
             const option = 
             <div>
+                <div className="image-display">
+                    <img src={charSprite}></img>
+                </div>  
                 <div className="option-display">
                     {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                         return (
