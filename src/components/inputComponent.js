@@ -69,7 +69,7 @@ function NameInputBox() {
                     <p>{warningMsg}</p>
                 </div>}                
             </div>
-            <p className="sound-warning">turn sound on for best playing experience.</p>
+            <p className="sound-warning">turn sound on for best playing experience. (note: still a wip it will be fixed soon.)</p>
         </form>        
     </div>
 
