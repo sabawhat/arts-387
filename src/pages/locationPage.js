@@ -3,12 +3,19 @@ import { useNavigate } from "react-router-dom";
 
 import QuitComponent from "../components/quitComponent";
 import Background from "../components/backgroundComponent";
-
-import SoundToggle from "../components/soundToggleComponent";
+import { useSounds } from "../soundManager";
 
 import choiceImg from '../assets/backgrounds/choice.png'
 
 function LocationPage() {  
+    const {sounds} = useSounds();
+    const soundOn = sessionStorage.getItem('music');
+    if (soundOn === 'true') {
+        sounds[1].play();
+        sounds[1].loop = true;
+        sessionStorage.setItem('current_sound', 'credits') ;
+    }
+
     const round = sessionStorage.getItem('round');
     const parseRound = parseInt(round, 10);
 
@@ -45,6 +52,8 @@ function LocationPage() {
         sessionStorage.setItem('location', selected_place);
         sessionStorage.setItem('round', (parseRound + 1).toString());
 
+        sounds[1].pause();
+        
         // route to the right url
         if (selected_place === 'a healing place') {
             navigate(`/a-healing-place`);            

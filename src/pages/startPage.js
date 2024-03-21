@@ -8,7 +8,6 @@ function StartPage() {
     // sessionStorage.setItem('soundFile', )
     return (
         <div>
-            <SoundToggle></SoundToggle>
             <NameInputBox></NameInputBox>       
             <Background backgroundImg={mainMenuImg}></Background> 
         </div>

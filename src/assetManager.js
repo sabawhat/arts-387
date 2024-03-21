@@ -20,10 +20,11 @@ import ddAngry from './assets/sprites/dd_angry.PNG'
 
 import andyBG from './assets/backgrounds/andy.png'
 import goudaBG1 from './assets/backgrounds/gouda_1.png'
+import pixieBG1 from './assets/backgrounds/pixie_1.png'
 
 
 function loadAsssets() {
-    const pixie_img = [pixieNeutral, pixieHappy, pixieSad, pixieAngry]
+    const pixie_img = [pixieNeutral, pixieHappy, pixieSad, pixieAngry, pixieBG1]
     const andy_img = [andyNeutral, andyHappy, andySad, andyAngry, andyBG]
     const gouda_img = [goudaNeutral, goudaHappy, goudaSad, goudaAngry, goudaBG1]
     const dd_img = [ddNeutral, ddHappy, ddSad, ddAngry]

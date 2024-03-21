@@ -1,20 +1,37 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import { useSounds } from '../soundManager';
 
 import startImage from '../assets/buttons/Menu-01.png'
+import soundOnImage from '../assets/buttons/sound-on.png'
+import soundOffImage from '../assets/buttons/sound-off.png'
+
 
 function NameInputBox() {
+    const {sounds} = useSounds();
+    
+    const mainMenuSound = sounds[0];
+    const creditSound = sounds[1];
+
     const [playerName, setName] = useState('');
     const [warningMsg, setWarningMsg] = useState('');
     const [showWarning, setShowWarning] = useState(false)
+    const [playing, setPlaying] = useState(false);
 
     const changeName = (event) => {
         setName(event.target.value);
     }
 
     const handleSubmit = (event) => {
+        // pause the sound and load new sound
+        if (playing) {
+            mainMenuSound.pause();
+            // creditSound.play();
+            // creditSound.loop = true;
+            // sessionStorage.setItem('current_sound', 'credits');
+        }
         // sets error message in any weird cases lol
         event.preventDefault();
         if (playerName.trim().length === 0 && playerName.length !== 0 ) {
@@ -50,28 +67,54 @@ function NameInputBox() {
       sessionStorage.setItem('round', (0).toString());
     }
 
+    // sound stuff
+
+    console.log(playing);
+    useEffect(() => {
+        if (playing) {
+            sessionStorage.setItem('music', 'true');
+            sessionStorage.setItem('current_sound', 'main menu');
+            mainMenuSound.load();
+            mainMenuSound.play();
+            mainMenuSound.loop = true;
+        } else {
+            sessionStorage.setItem('music', 'false');
+            mainMenuSound.pause();
+        }
+    }, [mainMenuSound, playing]);
+
+    function toggleSound() {
+        setPlaying(!playing);
+    }
+
     // when click ok, hide the whole form
     const html = 
-    <div className="input-name">
-        <form className="input-name-form" onSubmit={handleSubmit}>
-            <label className="input-label">
-                please enter a name:
-            </label> 
-            <div>
-                <input type="text" id="player-name" value={playerName} onChange={changeName} className="input-box"></input> 
-            </div>
-            <div>
-            <input type="image" src={startImage} className='start-button-img'></input> 
-            </div>
-            <div className='form-group'>
-                {showWarning && 
-                <div className="no-name-warning">
-                    <p>{warningMsg}</p>
-                </div>}                
-            </div>
-            <p className="sound-warning">turn sound on for best playing experience. (note: still a wip it will be fixed soon.)</p>
-        </form>        
+    <div>
+        <button className='sound-button' onClick={toggleSound}>
+            <img src={playing ? soundOnImage : soundOffImage} className='sound-button-img'></img>                
+        </button>        
+        <div className="input-name">
+            <form className="input-name-form" onSubmit={handleSubmit}>
+                <label className="input-label">
+                    please enter a name:
+                </label> 
+                <div>
+                    <input type="text" id="player-name" value={playerName} onChange={changeName} className="input-box"></input> 
+                </div>
+                <div>
+                <input type="image" src={startImage} className='start-button-img'></input> 
+                </div>
+                <div className='form-group'>
+                    {showWarning && 
+                    <div className="no-name-warning">
+                        <p>{warningMsg}</p>
+                    </div>}                
+                </div>
+                <p className="sound-warning">turn sound on for best playing experience.</p>
+            </form>        
+        </div>        
     </div>
+
 
     return html
 }

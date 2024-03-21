@@ -60,11 +60,14 @@ html, body {
 }
 
 .sound-button {
-  position: aboslute;
+  position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   background: none;
   border: none;
+  width: 80px;
+  height: auto;
+  margin: 10px;
 }
 
 .sound-button-img {

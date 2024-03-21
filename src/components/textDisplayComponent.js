@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 
 import loadJson from "../dialogueManager";
 import FlashScreen from "./flashComponent";
+import { useSounds } from "../soundManager";
 
 function TextDisplay() {
-    // TODO: make options for try again restart the game
-    // TODO: add loop for pixie
     // get the current location, round to select the right script
     const allScripts = loadJson();
+    const {sounds} = useSounds();
     const currentRound = parseInt(sessionStorage.getItem('round'), 10) - 1; // subtract 1 to get the idx
     const location = sessionStorage.getItem('location');
     const all_points = JSON.parse(sessionStorage.getItem('meter'));
@@ -34,7 +34,7 @@ function TextDisplay() {
         } else {
             if (all_points[location_idx] < 20) {
                 // set to low case
-                var selectedScript = allScripts[location_idx][3]
+                selectedScript = allScripts[location_idx][3]
                 if ((location === 'a soft place')) {
                     // get the last 4 elements of the script to loop
                     const loop = selectedScript.slice(-4);
@@ -46,11 +46,11 @@ function TextDisplay() {
                 }
             } else {
                 // set to high case
-                var selectedScript = allScripts[location_idx][4]
+                selectedScript = allScripts[location_idx][4]
             }
         }
     } else {
-        var selectedScript = allScripts[location_idx][currentRound]
+        selectedScript = allScripts[location_idx][currentRound]
     }    
     
     const [currentScript, setCurrentScript] = useState(selectedScript);
@@ -131,6 +131,17 @@ function TextDisplay() {
 
     let navigate = useNavigate();
     const returnHome = () => {
+        if (sessionStorage.getItem('music') === 'true') {
+            if (location === 'a healing place') {
+                sounds[2].pause();
+            } else if (location === 'a soft place') {
+                sounds[3].pause();
+            } else if (location === 'a chaotic place') {
+                sounds[4].pause();
+            } else if (location === 'an eternal place') {
+                sounds[5].pause();
+            }            
+        }
         navigate(`/general`);  
     }
 
