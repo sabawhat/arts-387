@@ -2,8 +2,9 @@ import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-
 import playImage from '../assets/buttons/play-button.png'
+import startImage from '../assets/buttons/Menu-01.png'
+import nameImg from '../assets/buttons/name_input.png'
 
 function NameInputBox() {
     const [playerName, setName] = useState('');
@@ -43,7 +44,7 @@ function NameInputBox() {
     let navigate = useNavigate(); 
     // initalize all values
     const routeChange = () =>{  
-      navigate(`/general`);
+      navigate(`/space`);
       let meter = [0, 0, 0, 0] // 0 = andy, 1 = pixie, 2 = gouda, 3 = WD
       sessionStorage.setItem('player_name', playerName)
       sessionStorage.setItem('meter', JSON.stringify(meter))
@@ -54,20 +55,19 @@ function NameInputBox() {
     const html = 
     <div className="input-name">
         <form className="input-name-form" onSubmit={handleSubmit}>
-            <div className='form-group'>
-                <label className="input-label">
-                    please enter a name:
-                </label> 
-                <div className="input-submit-container">
-                    <input type="text" id="player-name" value={playerName} onChange={changeName} className="input-box"></input> 
-                    <input type="image" src={playImage} className="input-img"></input>                       
-                </div>
+            <label className="input-label">
+                please enter a name:
+            </label> 
+            <div>
+                <input type="text" id="player-name" value={playerName} onChange={changeName} className="input-box"></input> 
+            </div>
+            <div>
+            <input type="image" src={startImage} className='start-button-img'></input> 
             </div>
             <div className='form-group'>
                 {showWarning && 
                 <div className="no-name-warning">
                     <p>{warningMsg}</p>
-                    <button onClick={clearWarning}>ok</button>
                 </div>}                
             </div>
         </form>        

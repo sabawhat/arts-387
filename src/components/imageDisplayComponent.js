@@ -1,10 +1,9 @@
 import React from "react";
 
-function ImageDisplay() {
+function ImageDisplay({charSprite}) {
     return (
         <div className="image-display">
-            <div className="background"></div>
-            <div className="character-sprite"></div>
+            <img src={charSprite}></img>
         </div>   
     )
 }        

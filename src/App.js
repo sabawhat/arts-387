@@ -11,9 +11,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          <Route index element={<StartButton />} />
-          <Route path="start" element={<StartPage />} />
-          <Route path="general" element={<LocationPage />} />
+          <Route index element={<StartPage />} />
+          <Route path="space" element={<LocationPage />} />
           <Route path="a-healing-place" element={<GeneralPage />}/>
           <Route path="a-soft-place" element={<GeneralPage />}/>
           <Route path="a-chaotic-place" element={<GeneralPage />}/>

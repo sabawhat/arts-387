@@ -61,12 +61,13 @@ function LocationPage() {
         }
     }
 
+
     const html = 
     <div>
         <Background backgroundImg={choiceImg}></Background>
         <QuitComponent></QuitComponent>
         <div className="choice-display-container">
-            <p>choose a location to go to:</p>
+            <p className="choice-display-label">choose a location to visit:</p>
             <div className="choice-display">
                     {locations.map((option, idx) => {
                         return (

@@ -12,14 +12,16 @@ function TextDisplay() {
     const currentRound = parseInt(sessionStorage.getItem('round'), 10) - 1; // subtract 1 to get the idx
     const location = sessionStorage.getItem('location');
     const all_points = JSON.parse(sessionStorage.getItem('meter'));
-
+    var font_family = 'Times New Roman';
     var location_idx = 0;
     if (location === 'a healing place') {
         location_idx = 0
+        font_family = "Coiny";
     } else if (location === 'a soft place') {
         location_idx = 1
     } else if (location === 'a chaotic place') {
         location_idx = 2
+        font_family = "Jacques Francois Shadow";
     } else if (location === 'an eternal place') {
         location_idx = 3
     }
@@ -165,14 +167,10 @@ function TextDisplay() {
         const diag =   
         <div>
             {/* <FlashScreen></FlashScreen> */}
-            <div className="text-display">
-                <div className="character-name">
-                    <h3>{charName}</h3>
-                </div>
-                <hr/>
-                <div className="character-dialogue">
-                    <p>{displayDialogue}</p>
-                </div>
+            <div className="text-display" style={{fontFamily: font_family}}>
+                <h3 className="character-name">{charName}</h3>
+                <hr></hr>
+                <p className="character-dialogue">{displayDialogue}</p>
             </div>               
         </div>
         return diag;
