@@ -193,11 +193,13 @@ function TextDisplay() {
             <div className="image-display">
                 <img src={charSprite}></img>
             </div>  
-            <div className="text-display" style={{fontFamily: font_family}}>
-                <h3 className="character-name">{charName}</h3>
-                <hr></hr>
-                <p className="character-dialogue">{displayDialogue}</p>
-            </div>               
+            <div className='text-display-wrapper'>
+                <div className="text-display" style={{fontFamily: font_family}}>
+                    <h3 className="character-name">{charName}</h3>
+                    <hr></hr>
+                    <p className="character-dialogue">{displayDialogue}</p>
+                </div>                 
+            </div>
         </div>
         return diag;
     } else {
@@ -208,15 +210,17 @@ function TextDisplay() {
                 <div className="image-display">
                     <img src={charSprite}></img>
                 </div>  
-                <div className="option-display">
-                    {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
-                        return (
-                            <div className="option-container" key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
-                                <p className='option'>{option.text}</p>
-                            </div>
-                            );
-                        })}
-                </div>             
+                <div className='text-display-wrapper'>
+                    <div className="option-display">
+                        {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
+                            return (
+                                <div className="option-container" key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
+                                    <p className='option'>{option.text}</p>
+                                </div>
+                                );
+                            })}
+                    </div>                    
+                </div>
             </div>
             return option;            
         }

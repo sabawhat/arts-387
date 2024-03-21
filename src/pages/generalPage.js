@@ -51,9 +51,7 @@ function GeneralPage() {
         <QuitComponent></QuitComponent>
         <div className="game-page">
             {/* <ImageDisplay charSprite={charImg}></ImageDisplay> */}
-            <div className='text-display-wrapper'>
-                <TextDisplay></TextDisplay>
-            </div>
+            <TextDisplay></TextDisplay>
             <Background backgroundImg={backgroundImg}></Background>
         </div>        
     </div>
