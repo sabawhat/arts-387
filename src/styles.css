@@ -103,6 +103,8 @@ html, body {
   outline: none;
   width: 400px;
   padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: large;
   margin-bottom: 15px;
 }
