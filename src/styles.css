@@ -39,7 +39,7 @@ html, body {
 }
 
 .image-display img{
-  max-width: 80%;
+  max-width: 85%;
   max-height: 100%;
 }
 
@@ -199,6 +199,7 @@ html, body {
   justify-content: center;
   flex-direction: column;
   z-index: 1;
+  align-items: center;
 }
 
 .option-container {

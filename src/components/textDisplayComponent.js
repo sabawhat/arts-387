@@ -17,27 +17,22 @@ function TextDisplay() {
     var font_family = 'Times New Roman';
     var location_idx = 0;
     var char_imgs = '';
-    var charSprite = '';
     if (location === 'a healing place') {
         location_idx = 0
         font_family = "Coiny";
         char_imgs = all_backgrounds[0]
-        charSprite = char_imgs[0]
     } else if (location === 'a soft place') {
         location_idx = 1
         char_imgs = all_backgrounds[1]
-        charSprite = char_imgs[0]
     } else if (location === 'a chaotic place') {
         location_idx = 2
         font_family = "Jacques Francois Shadow";
         char_imgs = all_backgrounds[2]
-        charSprite = char_imgs[0]
     } else if (location === 'an eternal place') {
         location_idx = 3
         char_imgs = all_backgrounds[3]
-        charSprite = char_imgs[0]
     }
-
+    const [charSprite, setCharSprite] = useState(char_imgs[0]);
     // 3 cases for script: normal, last round high/low, eternal
     // if last round, special case to select script
     if (currentRound + 1 === 4) {
@@ -86,6 +81,20 @@ function TextDisplay() {
     useEffect(() => {
         const nextDialogue = () => {
             if (currentDialogueIdx < currentScript.length - 1) {
+                // check if there is an expression if there is change to a diff sprite
+                if (currentScript[currentDialogueIdx]["expression"] !== undefined) {
+                    // get the expression
+                    const expression = currentScript[currentDialogueIdx]["expression"];
+                    if (expression === 'neutral') {
+                        setCharSprite(char_imgs[0]);
+                    } else if (expression === 'happy') {
+                        setCharSprite(char_imgs[1])
+                    } else if (expression === 'sad') {
+                        setCharSprite(char_imgs[2])
+                    } else if (expression === 'angry') {
+                        setCharSprite(char_imgs[3])
+                    }
+                }
                 setCurrentDialogueIdx(prevIdx => prevIdx + 1);
                 if (!(currentScript[currentDialogueIdx]['branch'])) {
                     setMainDialogueIdx(currentDialogueIdx + 1);
@@ -210,17 +219,15 @@ function TextDisplay() {
                 <div className="image-display">
                     <img src={charSprite}></img>
                 </div>  
-                <div className='text-display-wrapper'>
-                    <div className="option-display">
-                        {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
-                            return (
-                                <div className="option-container" key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
-                                    <p className='option'>{option.text}</p>
-                                </div>
-                                );
-                            })}
-                    </div>                    
-                </div>
+                <div className="option-display">
+                    {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
+                        return (
+                            <div className="option-container" key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
+                                <p className='option'>{option.text}</p>
+                            </div>
+                            );
+                        })}
+                </div>                    
             </div>
             return option;            
         }
