@@ -47,14 +47,17 @@ function GeneralPage() {
     }
 
     const html = 
-    <div className="game-page">
+    <div>
         <QuitComponent></QuitComponent>
-        <ImageDisplay charSprite={charImg}></ImageDisplay>
-        <div className='text-display-wrapper'>
-            <TextDisplay></TextDisplay>
-        </div>
-        <Background backgroundImg={backgroundImg}></Background>
+        <div className="game-page">
+            <ImageDisplay charSprite={charImg}></ImageDisplay>
+            <div className='text-display-wrapper'>
+                <TextDisplay></TextDisplay>
+            </div>
+            <Background backgroundImg={backgroundImg}></Background>
+        </div>        
     </div>
+
     return html
 }
 

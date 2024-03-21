@@ -3,6 +3,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "W-what?"
@@ -73,6 +74,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": 
                     {
                         "name": "Andy",
@@ -82,6 +84,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content": 
                     {
                         "name": "Andy",
@@ -172,6 +175,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Andy",
@@ -192,6 +196,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content":
                     {
                     "name": "Andy",
@@ -273,6 +278,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Andy",
@@ -293,6 +299,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Andy",
@@ -302,6 +309,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Andy",
@@ -387,6 +395,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Andy",
@@ -468,6 +477,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "Andy",
@@ -533,6 +543,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content":
                     {
                     "name": "Andy",
@@ -542,6 +553,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "Andy",
