@@ -2,9 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import playImage from '../assets/buttons/play-button.png'
+
 import startImage from '../assets/buttons/Menu-01.png'
-import nameImg from '../assets/buttons/name_input.png'
 
 function NameInputBox() {
     const [playerName, setName] = useState('');
@@ -70,6 +69,7 @@ function NameInputBox() {
                     <p>{warningMsg}</p>
                 </div>}                
             </div>
+            <p className="sound-warning">turn sound on for best playing experience.</p>
         </form>        
     </div>
 

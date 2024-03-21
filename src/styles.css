@@ -7,6 +7,11 @@ html, body {
     padding: 0;
 }
 
+.sound-warning {
+  color: white;
+  font-family: Fjalla One;
+}
+
 .backgrounds {
   position: fixed;
   top: 0;
@@ -47,9 +52,11 @@ html, body {
 }
 
 .sound {
-  position: relative;
-  width: 5%;
+  position: fixed;
   float: right;
+  height: 60px;
+  width: 60px;
+  padding: 5px;
 }
 
 .sound-button {
@@ -139,6 +146,16 @@ html, body {
   position: fixed;
   right: 0;
   margin: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  font-size: medium;
+}
+
+.quit-button:hover {
+  background-color: rgb(255, 241, 164);
+  cursor: pointer;
 }
 
 .text-display-wrapper {
@@ -172,6 +189,37 @@ html, body {
   margin: 15px;
 }
 
+.option-display {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.option-container {
+  justify-content: center;
+}
+
+.option {
+  background-color: peachpuff;
+  width: 800px;
+  height: 50px;
+  font-size: x-large;
+  font-family: Fjalla One;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.option:hover {
+  background-color: aliceblue;
+}
+
 .choice-display-container {
   display: flex;
   flex-direction: column;
@@ -200,6 +248,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     font-size: large;
+    border-radius: 10px;
 }
 
 .individual-option:hover {

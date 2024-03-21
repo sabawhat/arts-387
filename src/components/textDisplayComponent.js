@@ -179,12 +179,11 @@ function TextDisplay() {
             // display the option component
             const option = 
             <div>
-                {/* <FlashScreen></FlashScreen> */}
-                <div className="choice-display">
+                <div className="option-display">
                     {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                         return (
-                            <div className='individual-option' key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
-                                <p>{option.text}</p>
+                            <div className="option-container" key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
+                                <p className='option'>{option.text}</p>
                             </div>
                             );
                         })}
