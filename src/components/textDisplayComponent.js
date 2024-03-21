@@ -166,7 +166,7 @@ function TextDisplay() {
                 sounds[5].pause();
             }            
         }
-        navigate(`/general`);  
+        navigate(`/space`);  
     }
 
     const clickOption = (nextIdx, char, points) => {
