@@ -14,6 +14,14 @@ function QuitComponent() {
                 sounds[0].pause();
             } else if (soundFile === 'credits') {
                 sounds[1].pause();
+            } else if (soundFile === 'andy') {
+                sounds[2].pause();
+            } else if (soundFile === 'pixie') {
+                sounds[3].pause();
+            } else if (soundFile === 'gouda') {
+                sounds[4].pause();
+            } else if (soundFile === 'dd') {
+                sounds[5].pause();
             }
         }
         sessionStorage.clear();
