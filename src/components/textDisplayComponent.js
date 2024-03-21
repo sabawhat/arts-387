@@ -24,12 +24,14 @@ function TextDisplay() {
     } else if (location === 'a soft place') {
         location_idx = 1
         char_imgs = all_backgrounds[1]
+        font_family = "Henny Penny"
     } else if (location === 'a chaotic place') {
         location_idx = 2
         font_family = "Jacques Francois Shadow";
         char_imgs = all_backgrounds[2]
     } else if (location === 'an eternal place') {
         location_idx = 3
+        font_family = "New Rocker"
         char_imgs = all_backgrounds[3]
     }
     const [charSprite, setCharSprite] = useState(char_imgs[0]);
