@@ -38,6 +38,7 @@ function GeneralPage() {
         sessionStorage.setItem('current_sound', 'dd') ;
     } else if (location === 'an empty place') {
         // temp
+        currentSound = sounds[5];   
     }
 
     const soundOn = sessionStorage.getItem('music')
