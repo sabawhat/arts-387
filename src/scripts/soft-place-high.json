@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Pixie",
@@ -263,6 +264,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Pixie",

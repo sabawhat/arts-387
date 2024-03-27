@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "DELTA-DOOM",
@@ -315,6 +316,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content":
             {
             "name": "DELTA-DOOM",

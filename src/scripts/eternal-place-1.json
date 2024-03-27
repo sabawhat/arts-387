@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Delta-Doom",
             "dialogue": "OH."
@@ -240,6 +241,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content": {
                     "name": "Delta-Doom",
                     "dialogue": "I AM GLAD TO HEAR IT, LITTLE ONE."

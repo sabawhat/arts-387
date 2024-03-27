@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Pixie",
             "dialogue": "Wow. Hi."
@@ -10,6 +11,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Pixie",
             "dialogue": "It's really good to see you."
@@ -202,6 +204,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Pixie",
             "dialogue": "No, sweetheart, don't apologize."
@@ -256,6 +259,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content": {
                     "name": "Pixie",
                     "dialogue": "Are you...sure you wouldn't mind?"
@@ -264,6 +268,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content": {
                     "name": "Pixie",
                     "dialogue": "'Cause, like, I know I'm not the most..."
@@ -320,6 +325,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Pixie",
                     "dialogue": "Oh."
@@ -336,6 +342,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content": {
                     "name": "Pixie",
                     "dialogue": "Then yes, I'd like you to stay for a while."
@@ -370,6 +377,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content": {
                     "name": "Pixie",
                     "dialogue": "I don't think so."
@@ -378,6 +386,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content": {
                     "name": "Pixie",
                     "dialogue": "It's not really something you can make better."

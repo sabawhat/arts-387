@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Gouda",
             "dialogue": "Oh, it's you."
@@ -186,6 +187,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content": {
             "name": "Gouda",
             "dialogue": "And that just sucks."
@@ -234,6 +236,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Gouda",
             "dialogue": "That's nothing. That's pointless."
@@ -360,6 +363,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "That's the whole point of being around someone, you know?"
@@ -408,6 +412,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Which sucks."
@@ -496,6 +501,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "angry",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Fuck anyone who says otherwise."
@@ -504,6 +510,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Right?"
@@ -530,6 +537,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "You sound like DD."
@@ -570,6 +578,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "angry",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "That would be fucking boring."
@@ -578,6 +587,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Because you gotta be yourself, right."
@@ -626,6 +636,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "angry",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "You clearly are, or you wouldn't fucking be here."
@@ -642,6 +653,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Tch. Whatever."

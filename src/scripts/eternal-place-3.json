@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "DELTA-DOOM",
@@ -245,6 +246,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content":
             {
             "name": "DELTA-DOOM",
@@ -303,6 +305,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "DELTA-DOOM",
@@ -366,6 +369,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "DELTA-DOOM",
@@ -449,6 +453,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content":
                     {
                     "name": "DELTA-DOOM",
@@ -458,6 +463,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content":
                     {
                     "name": "DELTA-DOOM",
@@ -521,6 +527,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "DELTA-DOOM",

@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Gouda",
             "dialogue": "What's up loser?"
@@ -98,6 +99,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content": {
             "name": "Gouda",
             "dialogue": "Or you're just kind of...nothing."
@@ -106,6 +108,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Gouda",
             "dialogue": "Me, I'm everything, all the time."
@@ -162,6 +165,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content": {
             "name": "Gouda",
             "dialogue": "I dare you."
@@ -178,6 +182,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Gouda",
             "dialogue": "And it's not like I want to be perfect."
@@ -264,6 +269,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Hell. Yeah."
@@ -280,9 +286,10 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "sad",
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "Oh I gotta spare other people's feelings. (todo: italics)"
+                    "dialogue": "Oh I gotta spare other people's feelings."
                 }
             }, 
             {
@@ -290,12 +297,13 @@
                 "branch": true,
                 "content": {
                     "name": "Gouda",
-                    "dialogue": "Gotta be the bigger person. (todo: italics)"
+                    "dialogue": "Gotta be the bigger person."
                 }
             }, 
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Screw that."
@@ -378,6 +386,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "angry",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "So what if it is?"
@@ -434,6 +443,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "But maybe who you are is a coward?"

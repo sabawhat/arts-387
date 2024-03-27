@@ -3,6 +3,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "Oh, um, hi."
@@ -11,6 +12,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content": {
             "name": "Andy",
             "dialogue": "I hoped you'd come."
@@ -51,6 +53,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "Because it would be really weird if I pressured you."
@@ -107,6 +110,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content": {
             "name": "Andy",
             "dialogue": "Oh. Good."
@@ -179,6 +183,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "I- sorry."

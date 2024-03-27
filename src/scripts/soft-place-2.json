@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Pixie",
@@ -11,6 +12,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Pixie",
@@ -92,6 +94,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Pixie",
@@ -128,6 +131,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Pixie",
@@ -272,6 +276,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Pixie",
@@ -317,6 +322,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Pixie",
@@ -393,6 +399,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Pixie",
@@ -447,6 +454,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "Pixie",
@@ -456,6 +464,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Pixie",
@@ -548,6 +557,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "Pixie",
@@ -566,6 +576,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Pixie",
@@ -593,6 +604,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "Pixie",
@@ -611,6 +623,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Pixie",
@@ -647,6 +660,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content":
                     {
                     "name": "Pixie",
@@ -692,6 +706,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content":
                     {
                     "name": "Pixie",

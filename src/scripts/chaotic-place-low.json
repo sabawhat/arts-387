@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Gouda",
@@ -128,6 +129,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content":
             {
             "name": "Gouda",
@@ -164,6 +166,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Gouda",

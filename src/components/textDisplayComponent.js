@@ -34,7 +34,7 @@ function TextDisplay() {
         font_family = "New Rocker"
         char_imgs = all_backgrounds[3]
     }
-    const [charSprite, setCharSprite] = useState(char_imgs[0]);
+
     // 3 cases for script: normal, last round high/low, eternal
     // if last round, special case to select script
     if (currentRound + 1 === 4) {
@@ -71,6 +71,20 @@ function TextDisplay() {
     const [intervalID, setIntervalID] = useState(0);
     const [displayDialogue, setDisplayDialogue] = useState('');
 
+    if (currentScript[0]["expression"] !== undefined) {
+        // get the expression
+        const expression = currentScript[currentDialogueIdx+1]["expression"];
+        if (expression === 'neutral') {
+            setCharSprite(char_imgs[0]);
+        } else if (expression === 'happy') {
+            setCharSprite(char_imgs[1])
+        } else if (expression === 'sad') {
+            setCharSprite(char_imgs[2])
+        } else if (expression === 'angry') {
+            setCharSprite(char_imgs[3])
+        }
+    }
+    const [charSprite, setCharSprite] = useState(char_imgs[0]);
     // set display to correct character
     useEffect(() => {
         if (currentScript[currentDialogueIdx]['type'] === 'dialogue') {

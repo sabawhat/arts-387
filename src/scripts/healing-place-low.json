@@ -3,6 +3,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "Hey."
@@ -27,6 +28,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Andy",
             "dialogue": "Oh, who am I kidding."
@@ -115,6 +117,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "Look, you seem nice and all."

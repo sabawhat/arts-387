@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Gouda",
@@ -47,10 +48,11 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "happy",
         "content":
             {
             "name": "Gouda",
-            "dialogue": "It <i>is<i> good to see you."
+            "dialogue": "It is good to see you."
         }
     },
     {
@@ -110,6 +112,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content":
             {
             "name": "Gouda",
@@ -194,7 +197,7 @@
         "content":
             {
             "name": "Gouda",
-            "dialogue": "I see <i>all the way through."
+            "dialogue": "I see all the way through."
         }
     },
     {
@@ -230,7 +233,7 @@
         "content":
             {
             "name": "Gouda",
-            "dialogue": "Having to think about the fact I <i>know I'm being played with?"
+            "dialogue": "Having to think about the fact I know I'm being played with?"
         }
     },
     {

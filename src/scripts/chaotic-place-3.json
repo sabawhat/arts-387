@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content": {
             "name": "Gouda",
             "dialogue": "Fuck off."
@@ -10,6 +11,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content": {
             "name": "Gouda",
             "dialogue": "I'm not in the mood, okay?"
@@ -90,6 +92,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Gouda",
             "dialogue": "Because I couldn't stand the asshole I saw in the mirror."
@@ -122,6 +125,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "angry",
         "content": {
             "name": "Gouda",
             "dialogue": "Tugging on heart strings in the third act."
@@ -226,6 +230,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Gouda",
             "dialogue": "Fuck."
@@ -352,6 +357,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Could you?"
@@ -490,6 +496,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "angry",
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Nah. I don't need your pity."

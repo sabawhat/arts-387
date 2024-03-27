@@ -2,6 +2,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Andy",
             "dialogue": "*CRYING*"
@@ -10,6 +11,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Andy",
             "dialogue": "*CRYING*"
@@ -106,6 +108,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "And now I feel totally different ones."
@@ -138,6 +141,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Andy",
             "dialogue": "And maybe it's, um, stupid or something."
@@ -218,6 +222,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "neutral",
         "content": {
             "name": "Andy",
             "dialogue": "That's, um, thanks."
@@ -298,6 +303,7 @@
     {
         "type": "dialogue",
         "branch": false,
+        "expression": "sad",
         "content": {
             "name": "Andy",
             "dialogue": "Maybe I'm just too in my own head about this, you know?"
@@ -392,6 +398,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Andy",
                     "dialogue": "Oh. Wow."
@@ -400,6 +407,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "happy",
                 "content": {
                     "name": "Andy",
                     "dialogue": "That's, um, really amazing."
@@ -464,6 +472,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Andy",
                     "dialogue": "It's, um, kind of a silly story to think of, right?"
@@ -538,6 +547,7 @@
             {
                 "type": "dialogue",
                 "branch": true,
+                "expression": "neutral",
                 "content": {
                     "name": "Andy",
                     "dialogue": "Oh. Right."
