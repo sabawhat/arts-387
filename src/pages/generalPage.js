@@ -4,6 +4,7 @@ import TextDisplay from "../components/textDisplayComponent";
 import QuitComponent from "../components/quitComponent";
 import Background from "../components/backgroundComponent";
 import { useSounds } from "../soundManager";
+import Webcam from "react-webcam";
 
 import loadAsssets from "../assetManager";
 

@@ -7,6 +7,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .sound-warning {
@@ -308,4 +309,12 @@ html, body {
     to {
       transform: translateX(5px); /* Adjust the value to control the intensity of the shake */
     }
+  }
+
+  .webcam {
+    z-index: 2;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
   }

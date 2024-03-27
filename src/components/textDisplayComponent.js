@@ -6,6 +6,7 @@ import FlashScreen from "./flashComponent";
 import { useSounds } from "../soundManager";
 import loadAsssets from "../assetManager";
 
+import Webcam from "react-webcam";
 function TextDisplay() {
     // get the current location, round to select the right script
     const allScripts = loadJson();
@@ -219,6 +220,7 @@ function TextDisplay() {
         // display the dialogue component
         const diag =   
         <div>
+            <Webcam height={200} width={300}></Webcam>
             {/* <FlashScreen></FlashScreen> */}
             <div className="image-display">
                 <img src={charSprite}></img>
@@ -235,6 +237,7 @@ function TextDisplay() {
     } else if (currentScript[currentDialogueIdx]['type'] === 'temp') {
         const option = 
         <div>
+            <Webcam className='webcam' height={window.innerHeight} width={window.innerWidth}></Webcam>
             <div className="image-display">
                 <img src={charSprite}></img>
             </div>  
@@ -254,6 +257,7 @@ function TextDisplay() {
             // display the option component
             const option = 
             <div>
+                <Webcam className='webcam' height={window.innerHeight} width={window.innerWidth}></Webcam>
                 <div className="image-display">
                     <img src={charSprite}></img>
                 </div>  
