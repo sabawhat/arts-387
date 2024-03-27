@@ -70,68 +70,71 @@ function TextDisplay() {
     const [charDialogue, setCharDialogue] = useState('');
     const [intervalID, setIntervalID] = useState(0);
     const [displayDialogue, setDisplayDialogue] = useState('');
-
-    if (currentScript[0]["expression"] !== undefined) {
-        // get the expression
-        const expression = currentScript[currentDialogueIdx+1]["expression"];
-        if (expression === 'neutral') {
-            setCharSprite(char_imgs[0]);
-        } else if (expression === 'happy') {
-            setCharSprite(char_imgs[1])
-        } else if (expression === 'sad') {
-            setCharSprite(char_imgs[2])
-        } else if (expression === 'angry') {
-            setCharSprite(char_imgs[3])
-        }
-    }
     const [charSprite, setCharSprite] = useState(char_imgs[0]);
+
+
+
     // set display to correct character
     useEffect(() => {
         if (currentScript[currentDialogueIdx]['type'] === 'dialogue') {
             setCharName(currentScript[currentDialogueIdx]['content']['name'].replace('{player}', sessionStorage.getItem('player_name')));
-            setCharDialogue(currentScript[currentDialogueIdx]['content']['dialogue'].replace('{player}', sessionStorage.getItem('player_name')));            
+            setCharDialogue(currentScript[currentDialogueIdx]['content']['dialogue'].replace('{player}', sessionStorage.getItem('player_name')));    
+            if (currentScript[currentDialogueIdx]["expression"] !== undefined) {
+                // get the expression
+                const expression = currentScript[currentDialogueIdx]["expression"];
+                if (expression === 'neutral') {
+                    setCharSprite(char_imgs[0]);
+                } else if (expression === 'happy') {
+                    setCharSprite(char_imgs[1])
+                } else if (expression === 'sad') {
+                    setCharSprite(char_imgs[2])
+                } else if (expression === 'angry') {
+                    setCharSprite(char_imgs[3])
+                }
+            }        
         }
     }, [currentDialogueIdx]);
 
+
     // when player presses enter, move on to the next line
     useEffect(() => {
-        const nextDialogue = () => {
-            if (currentDialogueIdx < currentScript.length - 1) {
-                // check if there is an expression if there is change to a diff sprite
-                if (currentScript[currentDialogueIdx + 1]["expression"] !== undefined) {
-                    // get the expression
-                    const expression = currentScript[currentDialogueIdx+1]["expression"];
-                    console.log("here", expression, currentScript)
-                    if (expression === 'neutral') {
-                        setCharSprite(char_imgs[0]);
-                    } else if (expression === 'happy') {
-                        setCharSprite(char_imgs[1])
-                    } else if (expression === 'sad') {
-                        setCharSprite(char_imgs[2])
-                    } else if (expression === 'angry') {
-                        setCharSprite(char_imgs[3])
+    const nextDialogue = () => {
+                if (currentDialogueIdx < currentScript.length - 1) {
+                    // check if there is an expression if there is change to a diff sprite
+                    if (currentScript[currentDialogueIdx + 1]["expression"] !== undefined) {
+                        // get the expression
+                        const expression = currentScript[currentDialogueIdx+1]["expression"];
+                        if (expression === 'neutral') {
+                            setCharSprite(char_imgs[0]);
+                        } else if (expression === 'happy') {
+                            setCharSprite(char_imgs[1])
+                        } else if (expression === 'sad') {
+                            setCharSprite(char_imgs[2])
+                        } else if (expression === 'angry') {
+                            setCharSprite(char_imgs[3])
+                        }
                     }
-                }
-                setCurrentDialogueIdx(prevIdx => prevIdx + 1);
-                if (!(currentScript[currentDialogueIdx]['branch'])) {
-                    setMainDialogueIdx(currentDialogueIdx + 1);
+                    setCurrentDialogueIdx(prevIdx => prevIdx + 1);
+                    if (!(currentScript[currentDialogueIdx]['branch'])) {
+                        setMainDialogueIdx(currentDialogueIdx + 1);
+                    } else {
+                        setBranchDialogueIdx(branchDialogueIdx + 1);
+                    }
                 } else {
-                    setBranchDialogueIdx(branchDialogueIdx + 1);
-                }
-            } else {
-                // if we are on a branch and we have reached the end, we want to set the current dialogue idx to the main one and select the old script
-                if (mainDialogueIdx < selectedScript.length - 1) {
-                    if ((currentScript[currentDialogueIdx]['branch'])) {
-                        setCurrentDialogueIdx(mainDialogueIdx + 1);
-                        setCurrentScript(selectedScript);
-                    }                    
-                } else {
-                    returnHome();
-                } 
-            }                
-        }
-
-        const handleKeyPress = (event) => {
+                    // if we are on a branch and we have reached the end, we want to set the current dialogue idx to the main one and select the old script
+                    if (mainDialogueIdx < selectedScript.length - 1) {
+                        console.log('before crash')
+                        if ((currentScript[currentDialogueIdx]['branch'])) {
+                            setCurrentDialogueIdx(mainDialogueIdx + 1);
+                            setCurrentScript(selectedScript);
+                        }                    
+                    } else {
+                        returnHome();
+                    } 
+                }                
+            }       
+             
+            const handleKeyPress = (event) => {
             if ((event.key === 'Enter') && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
                 // if the text is still displaying, display the rest of the text 
                 if ((displayDialogue.length < charDialogue.length) && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
@@ -209,6 +212,10 @@ function TextDisplay() {
         sessionStorage.clear();
         navigate(`/`);
     }
+
+    const moveOn = () => {
+        setCurrentDialogueIdx(prevIdx => prevIdx + 1);
+    }
     
     // check if end key is in the dictionary, if so quit the game
     if (currentScript[currentDialogueIdx]['type'] === 'dialogue') {
@@ -228,6 +235,23 @@ function TextDisplay() {
             </div>
         </div>
         return diag;
+    } else if (currentScript[currentDialogueIdx]['type'] === 'temp') {
+        const option = 
+        <div>
+            <div className="image-display">
+                <img src={charSprite}></img>
+            </div>  
+            <div className="option-display">
+                {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
+                    return (
+                        <div className="option-container" key={`option_${idx}`} onClick={moveOn}>
+                            <p className='option'>{option.text}</p>
+                        </div>
+                        );
+                    })}
+            </div>                    
+        </div>
+        return option; 
     } else {
         if (currentScript[currentDialogueIdx]["content"] !== undefined) {
             // display the option component
@@ -239,7 +263,7 @@ function TextDisplay() {
                 <div className="option-display">
                     {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                         return (
-                            <div className="option-container" key={`option_${idx}`} onClick={'end' in currentScript[currentDialogueIdx] ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
+                            <div className="option-container" key={`option_${idx}`} onClick={currentScript[currentDialogueIdx]['end'] !== undefined ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
                                 <p className='option'>{option.text}</p>
                             </div>
                             );

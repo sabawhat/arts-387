@@ -100,12 +100,18 @@
                 }
             },
             {
-                "type": "dialogue",
+                "type": "temp",
                 "branch": true,
                 "content": 
                     {
-                        "name": "{player}",
-                        "dialogue": "..."
+                        "options": [
+                            {
+                                "text": "I get that"
+                            },
+                            {
+                                "text": "Sure"
+                            }
+                        ]
                 }
             },
             {
