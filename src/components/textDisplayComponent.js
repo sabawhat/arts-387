@@ -95,9 +95,6 @@ function TextDisplay() {
         }
     }, [currentDialogueIdx]);
 
-
-    // when player presses enter, move on to the next line
-    useEffect(() => {
     const nextDialogue = () => {
                 if (currentDialogueIdx < currentScript.length - 1) {
                     // check if there is an expression if there is change to a diff sprite
@@ -123,7 +120,6 @@ function TextDisplay() {
                 } else {
                     // if we are on a branch and we have reached the end, we want to set the current dialogue idx to the main one and select the old script
                     if (mainDialogueIdx < selectedScript.length - 1) {
-                        console.log('before crash')
                         if ((currentScript[currentDialogueIdx]['branch'])) {
                             setCurrentDialogueIdx(mainDialogueIdx + 1);
                             setCurrentScript(selectedScript);
@@ -132,8 +128,9 @@ function TextDisplay() {
                         returnHome();
                     } 
                 }                
-            }       
-             
+            }    
+    // when player presses enter, move on to the next line
+    useEffect(() => {
             const handleKeyPress = (event) => {
             if ((event.key === 'Enter') && (currentScript[currentDialogueIdx]['type'] === 'dialogue')) {
                 // if the text is still displaying, display the rest of the text 
@@ -244,7 +241,7 @@ function TextDisplay() {
             <div className="option-display">
                 {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                     return (
-                        <div className="option-container" key={`option_${idx}`} onClick={moveOn}>
+                        <div className="option-container" key={`option_${idx}`} onClick={nextDialogue}>
                             <p className='option'>{option.text}</p>
                         </div>
                         );

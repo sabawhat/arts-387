@@ -188,14 +188,23 @@
                 }
             },
             {
-                "type": "dialogue",
+                "type": "temp",
                 "branch": true,
-                "content":
+                "content": 
                     {
-                        "name": "{player}",
-                        "dialogue": "..."
-                }                    
-            }               
+                        "options": [
+                            {
+                                "text": "Um..."
+                            },
+                            {
+                                "text": "I mean I guess?"
+                            },
+                            {
+                                "text": "He sounds like an asshole..."
+                            }
+                        ]
+                }
+            }        
         ],
         [
             {
@@ -227,12 +236,18 @@
                 }
             }, 
             {
-                "type": "dialogue",
+                "type": "temp",
                 "branch": true,
-                "content":
+                "content": 
                     {
-                    "name": "{player}",
-                    "dialogue": "..."
+                        "options": [
+                            {
+                                "text": "I'm not sure why you asked me, a stranger."
+                            },
+                            {
+                                "text": "Could you tell me more about it?"
+                            }
+                        ]
                 }
             },
             {
@@ -298,7 +313,25 @@
                     "name": "Andy",
                     "dialogue": "Ha ha."
                 }
-            }           
+            },
+            {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "Um..."
+                            },
+                            {
+                                "text": "I don't think you're that weird."
+                            },
+                            {
+                                "text": "He sounds like an asshole..."
+                            }
+                        ]
+                }
+            }     
         ]            
     ],
     {
@@ -535,12 +568,18 @@
                 }
             },
             {
-                "type": "dialogue",
+                "type": "temp",
                 "branch": true,
-                "content":
+                "content": 
                     {
-                    "name": "{player}",
-                    "dialogue": "..."
+                        "options": [
+                            {
+                                "text": "Sure, why not?"
+                            },
+                            {
+                                "text": "I'd love to!"
+                            }
+                        ]
                 }
             }
         ],
@@ -602,12 +641,18 @@
                 }
             },
             {
-                "type": "dialogue",
+                "type": "temp",
                 "branch": true,
-                "content":
+                "content": 
                     {
-                    "name": "{player}",
-                    "dialogue": "..."
+                        "options": [
+                            {
+                                "text": "I'm not sure why you asked me, a stranger."
+                            },
+                            {
+                                "text": "I don't know what else to say."
+                            }
+                        ]
                 }
             },
             {
@@ -653,6 +698,24 @@
                     {
                     "name": "Andy",
                     "dialogue": "Yeah."
+                }
+            },
+            {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "Yeah, whatever."
+                            },
+                            {
+                                "text": "See you around!"
+                            },
+                            {
+                                "text": "Later, alligator."
+                            }
+                        ]
                 }
             }
         ]
