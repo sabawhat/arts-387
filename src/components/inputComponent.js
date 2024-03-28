@@ -109,7 +109,8 @@ function NameInputBox() {
                     <div className="no-name-warning">
                         <p>{warningMsg}</p>
                     </div>}                
-                </div>
+                </div> 
+                <p className="sound-warning">press enter to finish dialogue, and enter again to move on to the next line.</p>                     
                 <p className="sound-warning">turn sound on for best playing experience.</p>
             </form>        
         </div>        

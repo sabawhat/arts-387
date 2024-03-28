@@ -34,7 +34,7 @@ function GeneralPage() {
         sessionStorage.setItem('current_sound', 'gouda') ;
     } else if (location === 'an eternal place') {
         charImg = all_backgrounds[3][0];
-        // backgroundImg = all_backgrounds[3][4];
+        backgroundImg = all_backgrounds[3][4];
         currentSound = sounds[5];   
         sessionStorage.setItem('current_sound', 'dd') ;
     } else if (location === 'an empty place') {
