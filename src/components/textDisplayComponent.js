@@ -241,7 +241,7 @@ function TextDisplay() {
                 <img src={charSprite}></img>
             </div>  
             <div className='text-display-wrapper'>
-                <div className="text-display" style={{fontFamily: font_family, 'background-color': backgroundColor}}>
+                <div className="text-display" style={{fontFamily: font_family, 'backgroundColor': backgroundColor}}>
                     <h3 className="character-name">{charName}</h3>
                     <hr></hr>
                     <p className="character-dialogue">{displayDialogue}</p>
@@ -260,7 +260,7 @@ function TextDisplay() {
                 {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                     return (
                         <div className="option-container" key={`option_${idx}`}  onClick={nextDialogue}>
-                            <p className='option' style={{'background-color': generateRandomColor()}}>{option.text}</p>
+                            <p className='option' style={{'backgroundColor': generateRandomColor()}}>{option.text}</p>
                         </div>
                         );
                     })}
@@ -280,7 +280,7 @@ function TextDisplay() {
                     {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                         return (
                             <div className="option-container" key={`option_${idx}`} onClick={currentScript[currentDialogueIdx]['end'] !== undefined ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
-                                <p className='option' style={{'background-color': generateRandomColor()}}>{option.text}</p>
+                                <p className='option' style={{'backgroundColor': generateRandomColor()}}>{option.text}</p>
                             </div>
                             );
                         })}

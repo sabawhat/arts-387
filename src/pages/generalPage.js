@@ -1,10 +1,8 @@
 import React from "react";
-import ImageDisplay from "../components/imageDisplayComponent";
 import TextDisplay from "../components/textDisplayComponent";
 import QuitComponent from "../components/quitComponent";
 import Background from "../components/backgroundComponent";
 import { useSounds } from "../soundManager";
-import Webcam from "react-webcam";
 
 import loadAsssets from "../assetManager";
 
@@ -24,12 +22,15 @@ function GeneralPage() {
     } else if (location === 'a soft place') {
         // temp 
         charImg = all_backgrounds[1][0];
-        backgroundImg = all_backgrounds[1][4]; 
+        const randomNumber = Math.floor(Math.random() * 3);
+        backgroundImg = all_backgrounds[1][4 + randomNumber]; 
         currentSound = sounds[3];   
         sessionStorage.setItem('current_sound', 'pixie') ;
     } else if (location === 'a chaotic place') {
         charImg = all_backgrounds[2][0];
-        backgroundImg = all_backgrounds[2][4];
+        const randomNumber = Math.floor(Math.random() * 2);
+        console.log(randomNumber)
+        backgroundImg = all_backgrounds[2][4 + randomNumber];
         currentSound = sounds[4];   
         sessionStorage.setItem('current_sound', 'gouda') ;
     } else if (location === 'an eternal place') {

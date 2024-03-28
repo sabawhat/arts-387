@@ -87,7 +87,7 @@ function LocationPage() {
             <div className="choice-display">
                     {locations.map((option, idx) => {
                         return (
-                            <div className='individual-option' key={`option_${idx}`} style={{'background-color': generateRandomColor()}} onClick={() => clickOption(option)}>
+                            <div className='individual-option' key={`option_${idx}`} style={{'backgroundColor': generateRandomColor()}} onClick={() => clickOption(option)}>
                                 <p>{option}</p>
                             </div>
                             );
