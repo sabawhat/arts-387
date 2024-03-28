@@ -68,6 +68,13 @@ function LocationPage() {
         }
     }
 
+    const generateRandomColor = () => {
+        const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        if (randomColor === '#000000') {
+            randomColor = '#FFB6C1'
+        }
+        return randomColor;
+    };
 
     const html = 
     <div>
@@ -78,7 +85,7 @@ function LocationPage() {
             <div className="choice-display">
                     {locations.map((option, idx) => {
                         return (
-                            <div className='individual-option' key={`option_${idx}`} onClick={() => clickOption(option)}>
+                            <div className='individual-option' key={`option_${idx}`} style={{'background-color': generateRandomColor()}} onClick={() => clickOption(option)}>
                                 <p>{option}</p>
                             </div>
                             );

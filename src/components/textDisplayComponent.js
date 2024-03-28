@@ -71,8 +71,20 @@ function TextDisplay() {
     const [intervalID, setIntervalID] = useState(0);
     const [displayDialogue, setDisplayDialogue] = useState('');
     const [charSprite, setCharSprite] = useState(char_imgs[0]);
+    const [backgroundColor, setBackgroundColor] = useState('#FFB6C1');
 
+    const generateRandomColor = () => {
+        const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        if (randomColor === '#000000') {
+            randomColor = '#FFB6C1'
+        }
+        return randomColor;
+    };
 
+    useEffect(() => {
+      // Set the background color with a random color when the component mounts
+      setBackgroundColor(generateRandomColor());
+    }, []);
 
     // set display to correct character
     useEffect(() => {
@@ -98,6 +110,7 @@ function TextDisplay() {
     const nextDialogue = () => {
                 if (currentDialogueIdx < currentScript.length - 1) {
                     // check if there is an expression if there is change to a diff sprite
+                    setBackgroundColor(generateRandomColor());
                     if (currentScript[currentDialogueIdx + 1]["expression"] !== undefined) {
                         // get the expression
                         const expression = currentScript[currentDialogueIdx+1]["expression"];
@@ -224,7 +237,7 @@ function TextDisplay() {
                 <img src={charSprite}></img>
             </div>  
             <div className='text-display-wrapper'>
-                <div className="text-display" style={{fontFamily: font_family}}>
+                <div className="text-display" style={{fontFamily: font_family, 'background-color': backgroundColor}}>
                     <h3 className="character-name">{charName}</h3>
                     <hr></hr>
                     <p className="character-dialogue">{displayDialogue}</p>
@@ -241,8 +254,8 @@ function TextDisplay() {
             <div className="option-display">
                 {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                     return (
-                        <div className="option-container" key={`option_${idx}`} onClick={nextDialogue}>
-                            <p className='option'>{option.text}</p>
+                        <div className="option-container" key={`option_${idx}`}  onClick={nextDialogue}>
+                            <p className='option' style={{'background-color': generateRandomColor()}}>{option.text}</p>
                         </div>
                         );
                     })}
@@ -261,7 +274,7 @@ function TextDisplay() {
                     {currentScript[currentDialogueIdx]["content"]["options"].map((option, idx) => {
                         return (
                             <div className="option-container" key={`option_${idx}`} onClick={currentScript[currentDialogueIdx]['end'] !== undefined ? () => resetGame() : () => clickOption(option.response_idx, option.character, option.points)}>
-                                <p className='option'>{option.text}</p>
+                                <p className='option' style={{'background-color': generateRandomColor()}}>{option.text}</p>
                             </div>
                             );
                         })}

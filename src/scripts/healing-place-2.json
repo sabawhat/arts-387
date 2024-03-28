@@ -160,7 +160,7 @@
                 "branch": true,
                 "content": 
                     {
-                        "name": "{player}",
+                        "name": "Andy",
                         "dialogue": "But I do remember the ones I have really well."
                 }
             },
@@ -170,7 +170,7 @@
                 "content":
                     {
                     "name": "Andy",
-                    "dialogue": "So it, I don't know, balances out? I guess?."
+                    "dialogue": "So it, I don't know, balances out? I guess?"
                 }
             }             
         ],
