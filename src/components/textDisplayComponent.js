@@ -84,7 +84,14 @@ function TextDisplay() {
 
     useEffect(() => {
       // Set the background color with a random color when the component mounts
-      setBackgroundColor(generateRandomColor());
+      const generateBGRandomColor = () => {
+        const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        if (randomColor === '#000000') {
+            randomColor = '#FFB6C1'
+        }
+        return randomColor;
+    };
+      setBackgroundColor(generateBGRandomColor());
     }, []);
 
     // set display to correct character
@@ -111,7 +118,6 @@ function TextDisplay() {
     const nextDialogue = () => {
                 if (currentDialogueIdx < currentScript.length - 1) {
                     // check if there is an expression if there is change to a diff sprite
-                    setBackgroundColor(generateRandomColor());
                     if (currentScript[currentDialogueIdx + 1]["expression"] !== undefined) {
                         // get the expression
                         const expression = currentScript[currentDialogueIdx+1]["expression"];
@@ -224,10 +230,6 @@ function TextDisplay() {
         navigate(`/`);
     }
 
-    const moveOn = () => {
-        setCurrentDialogueIdx(prevIdx => prevIdx + 1);
-    }
-    
     // check if end key is in the dictionary, if so quit the game
     if (currentScript[currentDialogueIdx]['type'] === 'dialogue') {
         // display the dialogue component
